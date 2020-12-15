@@ -18,7 +18,7 @@ import errno
 import csv
 from characternetworks_af import Book, Character, Network
 
-from variables import *
+from variables_af import *
 
 argparser = argparse.ArgumentParser(description='computes character network of (subset of) novels')
 argparser.add_argument('--task', default=1, type=int, help='number of task when parallelising')
@@ -40,7 +40,7 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
     # Csv-file with information on each novel, columns: Book_ID, Title, Author, Publisher, Gender_author, Birthtyear_author Perspective (1stpers, 3rdpers, multi, other)
     BOOKS_AF_test = csv.reader(csvfile1, delimiter=',')
     # Csv-file with information on characters, columns: Book-ID, Character-ID, Name, Gender, Descent, Age, Education, Profession
-    NODES_AF_test = csv.reader(csvfile2, delimiter=';')
+    NODES_AF_test = csv.reader(csvfile2, delimiter=',')
     # Csv-file with information on character relations, columns: Book-ID, Source, Target, Relation-type
     EDGES_AF_test = csv.reader(csvfile3, delimiter=',')
     # Csv-file with information on name variances, columns: Book-ID, Character-ID, Name-ID, Name-variances
