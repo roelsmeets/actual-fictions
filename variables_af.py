@@ -12,8 +12,8 @@ bookpath['4'] = '/Users/roelsmeets/desktop/af_corpora/af_corpus_other_clean'
 csvpath = '/Users/roelsmeets/desktop/actual_fictions/actual-fictions'
 csvfiles = {}
 csvfiles['books'] = csvpath + '/BOOKS_AF_test.csv'
-csvfiles['nodes'] = csvpath + '/NODES__AF_test.csv'
-csvfiles['edges'] = csvpath + '/EDGES__AF_test.csv'
-csvfiles['names'] = csvpath + '/NAMES__AF_test.csv'
+csvfiles['nodes'] = csvpath + '/NODES_AF_test.csv'
+csvfiles['edges'] = csvpath + '/EDGES_AF_test.csv'
+csvfiles['names'] = csvpath + '/NAMES_AF_test.csv'
 csvfiles['rankings'] = csvpath + '/character-rankings.csv'
 

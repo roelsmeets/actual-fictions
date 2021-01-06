@@ -274,7 +274,7 @@ class Book:
 
 
                 for character_id in self.allcharacters:
-                    #subbook.addcharacter(self.allcharacters[character].book_id, self.allcharacters[character].character_id, self.allcharacters[character].name, self.allcharacters[character].gender, self.allcharacters[character].descent_country, self.allcharacters[character].descent_city, self.allcharacters[character].living_country, self.allcharacters[character].living_city, self.allcharacters[character].age, self.allcharacters[character].education, self.allcharacters[character].profession)
+                    #subbook.addcharacter(self.allcharacters[character].book_id, self.allcharacters[character].character_id, self.allcharacters[character].name, self.allcharacters[character].gender, self.allcharacters[character].descent, self.allcharacters[character].age, self.allcharacters[character].education, self.allcharacters[character].profession)
                     subbook.allcharacters[character_id] = self.allcharacters[character_id]
                     
 
@@ -578,25 +578,22 @@ class Network():
         self.is_connected = False 
         #self.diameter = 0
         self.gender_assortativity = 0
-        self.descent_country_assortativity = 0
-        self.descent_city_assortativity = 0
-        self.living_country_assortativity = 0
-        self.living_city_assortativity = 0
+        self.descent_assortativity = 0
         self.age_assortativity = 0
         self.education_assortativity = 0
         self.communities = []
         self.community_a = set()
         self.community_b = set()
         self.gender_distribution_book = {'male': 0, 'female': 0, 'unknown': 0}
-        self.descent_recode_distribution_book = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
+        self.descent_distribution_book = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
         self.education_distribution_book = {'high education': 0, 'low education': 0, 'unknown': 0}
         self.age_distribution_book = {'<25': 0, '26-35': 0, '36-45': 0, '46-55': 0, '56-64': 0, '65+': 0, 'unknown': 0}
         self.gender_distribution_community_a = {'male': 0, 'female': 0, 'unknown': 0}
-        self.descent_recode_distribution_community_a = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
+        self.descent_distribution_community_a = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
         self.education_distribution_community_a = {'high education': 0, 'low education': 0, 'unknown': 0}
         self.age_distribution_community_a = {'<25': 0, '26-35': 0, '36-45': 0, '46-55': 0, '56-64': 0, '65+': 0, 'unknown': 0}
         self.gender_distribution_community_b = {'male': 0, 'female': 0, 'unknown': 0}
-        self.descent_recode_distribution_community_b = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
+        self.descent_distribution_community_b = {'non-migrant': 0, 'migrant': 0, 'unknown': 0}
         self.education_distribution_community_b = {'high education': 0, 'low education': 0, 'unknown': 0}
         self.age_distribution_community_b = {'<25': 0, '26-35': 0, '36-45': 0, '46-55': 0, '56-64': 0, '65+': 0, 'unknown': 0}
 
@@ -741,10 +738,7 @@ class Network():
         # Create empty dictionaries for node attributes
         name_dict = {} 
         gender_dict = {}
-        descent_country_dict = {}
-        descent_city_dict = {}
-        living_country_dict = {}
-        living_city_dict = {}
+        descent_dict = {}
         age_dict = {}
         education_dict = {}
         profession_dict = {}
@@ -753,7 +747,7 @@ class Network():
         closeness_dict = {}
         eigenvector_dict = {}
         katz_dict = {}
-        descent_recode_dict = {}
+     
 
         for character_id in allcharacters:
             """Define node attributes by accessing Character attributes in allcharacters
@@ -761,10 +755,7 @@ class Network():
             """
             name_dict[character_id] = allcharacters[character_id].name
             gender_dict[character_id] = allcharacters[character_id].gender
-            descent_country_dict[character_id] = allcharacters[character_id].descent_country
-            descent_city_dict[character_id] = allcharacters[character_id].descent_city
-            living_country_dict[character_id] = allcharacters[character_id].living_country
-            living_city_dict[character_id] = allcharacters[character_id].living_city
+            descent_dict[character_id] = allcharacters[character_id].descent
             age_dict[character_id] = allcharacters[character_id].age
             education_dict[character_id] = allcharacters[character_id].education
             profession_dict[character_id] = allcharacters[character_id].profession
@@ -774,26 +765,23 @@ class Network():
             eigenvector_dict[character_id] = 0
             katz_dict[character_id] = 0
 
-            if (allcharacters[character_id].descent_country == '1') or (allcharacters[character_id].descent_country == '2'):
-                descent_recode_dict[character_id] = '0' # Recode 1 (Dutch) and 2 (Belgian) into 0 ('non-migrant')
-            if (allcharacters[character_id].descent_country == '3') or (allcharacters[character_id].descent_country =='4') or (allcharacters[character_id].descent_country =='5') or (allcharacters[character_id].descent_country =='6'):
-                descent_recode_dict[character_id] = '1' # Recode 3 (European), 4 (Western), 5 (Middle Eastern), 6 (Other) into 1 ('migrant')
-            if allcharacters[character_id].descent_country == '99':
-                descent_recode_dict[character_id] = '99' # 99 (unknown) remains the same
+            # if (allcharacters[character_id].descent_country == '1') or (allcharacters[character_id].descent_country == '2'):
+            #     descent_dict[character_id] = '0' # Recode 1 (Dutch) and 2 (Belgian) into 0 ('non-migrant')
+            # if (allcharacters[character_id].descent_country == '3') or (allcharacters[character_id].descent_country =='4') or (allcharacters[character_id].descent_country =='5') or (allcharacters[character_id].descent_country =='6'):
+            #     descent_dict[character_id] = '1' # Recode 3 (European), 4 (Western), 5 (Middle Eastern), 6 (Other) into 1 ('migrant')
+            # if allcharacters[character_id].descent_country == '99':
+            #     descent_dict[character_id] = '99' # 99 (unknown) remains the same
 
-            # Check if recoding descent_country into descent_recode worked properly
+            # Check if recoding descent_country into descent worked properly
             # print ('character =', allcharacters[character_id].name, 'descent_country =', allcharacters[character_id].descent_country)
-            # print ('character =', allcharacters[character_id].name, 'descent_recode =', descent_recode_dict[character_id])
+            # print ('character =', allcharacters[character_id].name, 'descent =', descent_dict[character_id])
             # print ('***************************************')
       
 
 
         nx.set_node_attributes(self.Graph, name_dict, 'name')
         nx.set_node_attributes(self.Graph, gender_dict, 'gender')
-        nx.set_node_attributes(self.Graph, descent_country_dict, 'descent_country')
-        nx.set_node_attributes(self.Graph, descent_city_dict, 'descent_city')
-        nx.set_node_attributes(self.Graph, living_country_dict, 'living_country')
-        nx.set_node_attributes(self.Graph, living_city_dict, 'living_city')
+        nx.set_node_attributes(self.Graph, descent_dict, 'descent')
         nx.set_node_attributes(self.Graph, age_dict, 'age')
         nx.set_node_attributes(self.Graph, education_dict, 'education')
         nx.set_node_attributes(self.Graph, profession_dict, 'profession')
@@ -802,7 +790,6 @@ class Network():
         nx.set_node_attributes(self.Graph, closeness_dict, 'closeness')
         nx.set_node_attributes(self.Graph, eigenvector_dict, 'eigenvector')
         nx.set_node_attributes(self.Graph, katz_dict, 'katz')
-        nx.set_node_attributes(self.Graph, descent_recode_dict, 'descent_recode')
 
 
         # print(nx.info(self.Graph)) # Print information about the Graph   
@@ -898,10 +885,7 @@ class Network():
         - character_Id
         - name
         - gender
-        - descent_country
-        - descent_city
-        - living_country
-        - living_city
+        - descent
         - age
         - education
         - profession
@@ -915,16 +899,14 @@ class Network():
         balbla = False
         with open (filename, 'a', newline='') as f:
             csvwriter = csv.writer(f)
+            csvwriter.writerow(['book_id', 'character_id', 'name', 'gender', 'descent', 'age', 'education', 'profession', 'degree', 'betweenness', 'closeness', 'eigenvector', 'katz'])
 
             for character_id in sorted(list(self.Graph.nodes)):
                 csvwriter.writerow([self.book_id, \
                             character_id, \
                             nx.get_node_attributes(self.Graph, 'name')[character_id], \
                             nx.get_node_attributes(self.Graph, 'gender')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'descent_country')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'descent_city')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'living_country')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'living_city')[character_id], \
+                            nx.get_node_attributes(self.Graph, 'descent')[character_id], \
                             nx.get_node_attributes(self.Graph, 'age')[character_id], \
                             nx.get_node_attributes(self.Graph, 'education')[character_id], \
                             nx.get_node_attributes(self.Graph, 'profession')[character_id], \
@@ -979,21 +961,14 @@ class Network():
      
 
         self.gender_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'gender')
-        self.descent_country_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'descent_country')
-        self.descent_city_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'descent_city')
-        self.living_country_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'living_country')
-        self.living_city_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'living_city')
+        self.descent_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'descent')
         self.age_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'age')
         self.education_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'education')
-        self.descent_recode_assortativity = nx.attribute_assortativity_coefficient(self.Graph, 'descent_recode')
         print ('Gender assortativity for book', self.book_id, '=', self.gender_assortativity)
-        print ('Country of descent assortativity for book', self.book_id, '=', self.descent_country_assortativity)
-        print ('City of descent assortativity for book', self.book_id, '=', self.descent_city_assortativity)
-        print ('Country of living assortativity for book', self.book_id, '=', self.living_country_assortativity)
-        print ('City of living assortativity for book', self.book_id, '=', self.living_city_assortativity)
+        print ('Descent assortativity for book', self.book_id, '=', self.descent_assortativity)
         print ('Age assortativity for book', self.book_id, '=', self.age_assortativity)
         print ('Education assortativity for book', self.book_id, '=', self.education_assortativity)
-        print ('Descent_recode assortativity for book', self.book_id, '=', self.descent_recode_assortativity)
+
 
 
 
@@ -1011,13 +986,9 @@ class Network():
                         self.clustering_coefficient, \
                         self.is_connected, \
                         self.gender_assortativity, \
-                        self.descent_country_assortativity, \
-                        self.descent_city_assortativity, \
-                        self.living_country_assortativity, \
-                        self.living_city_assortativity, \
+                        self.descent_assortativity, \
                         self.age_assortativity, \
-                        self.education_assortativity, \
-                        self.descent_recode_assortativity])
+                        self.education_assortativity])
 
 
     def detect_communities(self, filename='communities_frequency_distributions.csv'):
@@ -1066,7 +1037,7 @@ class Network():
         print ('Community b of book', self.book_id, ':', self.community_b)
 
         gender_nx = nx.get_node_attributes(self.Graph, 'gender')
-        descent_recode_nx = nx.get_node_attributes(self.Graph, 'descent_recode')
+        descent_nx = nx.get_node_attributes(self.Graph, 'descent')
         education_nx = nx.get_node_attributes(self.Graph, 'education')
         age_nx = nx.get_node_attributes(self.Graph, 'age')
 
@@ -1078,7 +1049,7 @@ class Network():
 
                 """
                 # print ('character_id:', character_id, 'gender:', gender_nx[character_id])
-                # print ('character_id:', character_id, 'descent:', descent_recode_nx[character_id])
+                # print ('character_id:', character_id, 'descent:', descent_nx[character_id])
                 # print ('character_id:', character_id, 'education:', education_nx[character_id])
                 # print ('character_id:', character_id, 'age:', age_nx[character_id])
                 if gender_nx[character_id] == '1':
@@ -1088,12 +1059,12 @@ class Network():
                 elif gender_nx[character_id] == '99':
                     self.gender_distribution_book['unknown'] += 1
 
-                if descent_recode_nx[character_id] == '0':
-                    self.descent_recode_distribution_book['non-migrant'] += 1
-                elif descent_recode_nx[character_id] == '1':
-                    self.descent_recode_distribution_book['migrant'] += 1
-                elif descent_recode_nx[character_id] == '99':
-                    self.descent_recode_distribution_book['unknown'] += 1
+                if descent_nx[character_id] == '0':
+                    self.descent_distribution_book['non-migrant'] += 1
+                elif descent_nx[character_id] == '1':
+                    self.descent_distribution_book['migrant'] += 1
+                elif descent_nx[character_id] == '99':
+                    self.descent_distribution_book['unknown'] += 1
                 
                 if education_nx[character_id] == '1':
                     self.education_distribution_book['high education'] += 1
@@ -1122,9 +1093,9 @@ class Network():
         print ('female characters in book', self.book_id, self.gender_distribution_book['female'])
         print ('unknown gender characters in book', self.book_id, self.gender_distribution_book['unknown'])
 
-        print ('non-migrant characters in book', self.book_id, self.descent_recode_distribution_book['non-migrant'])
-        print ('migrant characters in book', self.book_id, self.descent_recode_distribution_book['migrant'])
-        print ('unknown descent characters in book', self.book_id, self.descent_recode_distribution_book['unknown'])
+        print ('non-migrant characters in book', self.book_id, self.descent_distribution_book['non-migrant'])
+        print ('migrant characters in book', self.book_id, self.descent_distribution_book['migrant'])
+        print ('unknown descent characters in book', self.book_id, self.descent_distribution_book['unknown'])
 
         print ('higher educated characters in book', self.book_id, self.education_distribution_book['high education'])
         print ('lower educated characters in book', self.book_id, self.education_distribution_book['low education'])
@@ -1146,7 +1117,7 @@ class Network():
 
             """
             # print ('character_id:', character_id, 'gender:', gender_nx[character_id])
-            # print ('character_id:', character_id, 'descent:', descent_recode_nx[character_id])
+            # print ('character_id:', character_id, 'descent:', descent_nx[character_id])
             # print ('character_id:', character_id, 'education:', education_nx[character_id])
             # print ('character_id:', character_id, 'age:', age_nx[character_id])
             if gender_nx[character_id] == '1':
@@ -1156,12 +1127,12 @@ class Network():
             elif gender_nx[character_id] == '99':
                 self.gender_distribution_community_a['unknown'] += 1
 
-            if descent_recode_nx[character_id] == '0':
-                self.descent_recode_distribution_community_a['non-migrant'] += 1
-            elif descent_recode_nx[character_id] == '1':
-                self.descent_recode_distribution_community_a['migrant'] += 1
-            elif descent_recode_nx[character_id] == '99':
-                self.descent_recode_distribution_community_a['unknown'] += 1
+            if descent_nx[character_id] == '0':
+                self.descent_distribution_community_a['non-migrant'] += 1
+            elif descent_nx[character_id] == '1':
+                self.descent_distribution_community_a['migrant'] += 1
+            elif descent_nx[character_id] == '99':
+                self.descent_distribution_community_a['unknown'] += 1
             
             if education_nx[character_id] == '1':
                 self.education_distribution_community_a['high education'] += 1
@@ -1190,9 +1161,9 @@ class Network():
         print ('female characters in community_a of book', self.book_id, self.gender_distribution_community_a['female'])
         print ('unknown gender characters in community_a of book', self.book_id, self.gender_distribution_community_a['unknown'])
 
-        print ('non-migrant characters in community_a of book', self.book_id, self.descent_recode_distribution_community_a['non-migrant'])
-        print ('migrant characters in community_a of book', self.book_id, self.descent_recode_distribution_community_a['migrant'])
-        print ('unknown descent characters in community_a of book', self.book_id, self.descent_recode_distribution_community_a['unknown'])
+        print ('non-migrant characters in community_a of book', self.book_id, self.descent_distribution_community_a['non-migrant'])
+        print ('migrant characters in community_a of book', self.book_id, self.descent_distribution_community_a['migrant'])
+        print ('unknown descent characters in community_a of book', self.book_id, self.descent_distribution_community_a['unknown'])
 
         print ('higher educated characters in community_a of book', self.book_id, self.education_distribution_community_a['high education'])
         print ('lower educated characters in community_a of book', self.book_id, self.education_distribution_community_a['low education'])
@@ -1213,7 +1184,7 @@ class Network():
 
             """
             # print ('character_id:', character_id, 'gender:', gender_nx[character_id])
-            # print ('character_id:', character_id, 'descent:', descent_recode_nx[character_id])
+            # print ('character_id:', character_id, 'descent:', descent_nx[character_id])
             # print ('character_id:', character_id, 'education:', education_nx[character_id])
             # print ('character_id:', character_id, 'age:', age_nx[character_id])
 
@@ -1224,12 +1195,12 @@ class Network():
             elif gender_nx[character_id] == '99':
                 self.gender_distribution_community_b['unknown'] += 1
 
-            if descent_recode_nx[character_id] == '0':
-                self.descent_recode_distribution_community_b['non-migrant'] += 1
-            elif descent_recode_nx[character_id] == '1':
-                self.descent_recode_distribution_community_b['migrant'] += 1
-            elif descent_recode_nx[character_id] == '99':
-                self.descent_recode_distribution_community_b['unknown'] += 1
+            if descent_nx[character_id] == '0':
+                self.descent_distribution_community_b['non-migrant'] += 1
+            elif descent_nx[character_id] == '1':
+                self.descent_distribution_community_b['migrant'] += 1
+            elif descent_nx[character_id] == '99':
+                self.descent_distribution_community_b['unknown'] += 1
             
             if education_nx[character_id] == '1':
                 self.education_distribution_community_b['high education'] += 1
@@ -1258,9 +1229,9 @@ class Network():
         print ('female characters in community_b of book', self.book_id, self.gender_distribution_community_b['female'])
         print ('unknown gender characters in community_b of book', self.book_id, self.gender_distribution_community_b['unknown'])
 
-        print ('non-migrant characters in community_b of book', self.book_id, self.descent_recode_distribution_community_b['non-migrant'])
-        print ('migrant characters in community_b of book', self.book_id, self.descent_recode_distribution_community_b['migrant'])
-        print ('unknown descent characters in community_b of book', self.book_id, self.descent_recode_distribution_community_b['unknown'])
+        print ('non-migrant characters in community_b of book', self.book_id, self.descent_distribution_community_b['non-migrant'])
+        print ('migrant characters in community_b of book', self.book_id, self.descent_distribution_community_b['migrant'])
+        print ('unknown descent characters in community_b of book', self.book_id, self.descent_distribution_community_b['unknown'])
 
         print ('higher educated characters in community_b of book', self.book_id, self.education_distribution_community_b['high education'])
         print ('lower educated characters in community_b of book', self.book_id, self.education_distribution_community_b['low education'])
@@ -1286,15 +1257,15 @@ class Network():
                         self.gender_distribution_community_b['male'], \
                         self.gender_distribution_community_b['female'], \
                         self.gender_distribution_community_b['unknown'], \
-                        self.descent_recode_distribution_book['non-migrant'], \
-                        self.descent_recode_distribution_book['migrant'], \
-                        self.descent_recode_distribution_book['unknown'], \
-                        self.descent_recode_distribution_community_a['non-migrant'], \
-                        self.descent_recode_distribution_community_a['migrant'], \
-                        self.descent_recode_distribution_community_a['unknown'], \
-                        self.descent_recode_distribution_community_b['non-migrant'], \
-                        self.descent_recode_distribution_community_b['migrant'], \
-                        self.descent_recode_distribution_community_b['unknown'], \
+                        self.descent_distribution_book['non-migrant'], \
+                        self.descent_distribution_book['migrant'], \
+                        self.descent_distribution_book['unknown'], \
+                        self.descent_distribution_community_a['non-migrant'], \
+                        self.descent_distribution_community_a['migrant'], \
+                        self.descent_distribution_community_a['unknown'], \
+                        self.descent_distribution_community_b['non-migrant'], \
+                        self.descent_distribution_community_b['migrant'], \
+                        self.descent_distribution_community_b['unknown'], \
                         self.education_distribution_book['high education'], \
                         self.education_distribution_book['low education'], \
                         self.education_distribution_book['unknown'], \

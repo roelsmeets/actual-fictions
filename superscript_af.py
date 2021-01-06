@@ -135,9 +135,9 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
 
     taskbookids = bookids[startnr:endnr]
 
-    # csvfile = 'character_rankings.csv'
-    # if total > 1:
-    #     csvfile = 'character_rankings_task_'+str(task)+'.csv'
+    csvfile = 'character_rankings.csv'
+    if total > 1:
+        csvfile = 'character_rankings_task_'+str(task)+'.csv'
 
     # csvfile2 = 'networkstats.csv'
     # if total > 1:
