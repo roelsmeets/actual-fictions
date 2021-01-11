@@ -5,7 +5,9 @@
 
 # Most code is based on https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Text-Analysis/Named-Entity-Recognition.html
 
+
 import math
+import re
 import spacy
 from spacy import displacy
 from collections import Counter
@@ -40,20 +42,44 @@ for named_entity in document.ents:
 	if named_entity.label_ == "PERSON":
 		people.append(named_entity.text)
 
-print (people)
+#print (people)
 
 people_tally = Counter(people)
-
-df = pd.DataFrame(people_tally.most_common(), columns=['character', 'count'])
-print ('people:', df)
-
+df = pd.DataFrame(people_tally.most_common(), columns=['character', 'count', 'assigned gender based on name'])
+print (df)
 
 
-# for person in people:
-# 	context_person = get_ner_in_context(person, document)
-# 	print ('***********************')
-# 	print (person, context_person)
-# 	print ('***********************')
+
+# ESTIMATE GENDER OF PERSON
+
+filepath1 = '/Users/roelsmeets/Desktop/actual_fictions/actual-fictions/male_names_dutch.csv'
+filepath2 = '/Users/roelsmeets/Desktop/actual_fictions/actual-fictions/female_names_dutch.csv'
+
+column_names1 = ['Name_male', 'Occurrences']
+male_names_csv = pd.read_csv(filepath1, sep=";", names=column_names1)
+
+column_names2 = ['Name_female', 'Occurrences']
+female_names_csv = pd.read_csv(filepath2, sep=";", names=column_names2)
+
+male_names = male_names_csv.Name_male.to_list()
+female_names = female_names_csv.Name_female.to_list()
+
+# print (male_names)
+# print (female_names)
+
+people_list = df.character.to_list()
+
+
+for person in people_list[:30]:
+	if person in male_names and person in female_names:
+		df.query('character' == person) # Trying to add the assigned gender to a column related to row of the character in the df
+		print (person, '= gender neutral name')
+	elif person in male_names and person not in female_names:
+		print (person, '= probably male')
+	elif person in female_names and person not in male_names:
+		print (person, '= probably female')
+	else:
+		print (person, '= strange name OR entity is not a person')
 
 
 
@@ -104,8 +130,37 @@ print ('people:', df)
 
 
 
-# GET NAMED ENTIITIES IN THEIR CONTEXT
 
-# context_named_entity = get_ner_in_context('Alexander', document)
-# print (context_named_entity)
+# FUNCTION FOR GETTING NER IN CONTEXT OF TEXT
+
+
+def get_ner_in_context(keyword, document, desired_ner_labels= 'PERSON'):
+	if desired_ner_labels != False:
+		desired_ner_labels = desired_ner_labels
+	else:
+		desired_ner_labels = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']  
+
+	#Iterate through all the sentences in the document and pull out the text of each sentence
+	for sentence in document.sents:
+	    #process each sentence
+	    sentence_doc = nlp(sentence.text)
+
+	    for named_entity in sentence_doc.ents:
+	        #Check to see if the keyword is in the sentence (and ignore capitalization by making both lowercase)
+	        if keyword.lower() in named_entity.text.lower()  and named_entity.label_ in desired_ner_labels:
+	            #Use the regex library to replace linebreaks and to make the keyword bolded, again ignoring capitalization
+	            #sentence_text = sentence.text
+
+	            sentence_text = re.sub('\n', ' ', sentence.text)
+	            sentence_text = re.sub(f"{named_entity.text}", f"**{named_entity.text}**", sentence_text, flags=re.IGNORECASE)
+
+	            print('---')
+	            print(f"**{named_entity.label_}**")
+	            print(sentence_text)
+       
+
+#context_named_entity = get_ner_in_context('Alexander', document)
+
+
+
 
