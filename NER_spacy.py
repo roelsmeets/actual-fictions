@@ -45,8 +45,8 @@ for named_entity in document.ents:
 #print (people)
 
 people_tally = Counter(people)
-df = pd.DataFrame(people_tally.most_common(), columns=['character', 'count', 'assigned gender based on name'])
-print (df)
+df = pd.DataFrame(people_tally.most_common(), columns=['character', 'count'])
+# print (df)
 
 
 
@@ -70,18 +70,33 @@ female_names = female_names_csv.Name_female.to_list()
 people_list = df.character.to_list()
 
 
-for person in people_list[:30]:
-	if person in male_names and person in female_names:
-		df.query('character' == person) # Trying to add the assigned gender to a column related to row of the character in the df
-		print (person, '= gender neutral name')
-	elif person in male_names and person not in female_names:
-		print (person, '= probably male')
-	elif person in female_names and person not in male_names:
-		print (person, '= probably female')
-	else:
-		print (person, '= strange name OR entity is not a person')
 
 
+with open ('characternames.csv', 'a', newline='') as f:
+	csvwriter = csv.writer(f)
+	"""
+
+	Columns: book_id, character_id, ner_rank, character_name, estimated_gender
+
+	In for-if loop below, define the values of the rows that have to be created by csvwriter.writerow 
+
+	"""
+
+
+
+	for person in people_list[:30]:
+		if person in male_names and person in female_names:
+			print ('RANK:', people_list.index(person), 'CHARACTER:', person, 'NAME', '= gender neutral name')
+			# csvwriter.writerow(book_id, character_id, ner_rank, character_name, estimated_gender )
+		elif person in male_names and person not in female_names:
+			print ('RANK:', people_list.index(person), 'CHARACTER:', person, 'NAME',  '= probably male')
+		elif person in female_names and person not in male_names:
+			print ('RANK:', people_list.index(person), 'CHARACTER:', person, 'NAME', '= probably female')
+		else:
+			print ('RANK:', people_list.index(person), 'CHARACTER:', person, 'NAME', '= strange name OR entity is not a person')
+
+
+	
 
 
 
