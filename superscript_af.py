@@ -35,14 +35,11 @@ if task > total:
 
 with open(csvfiles['books'], 'rt') as csvfile1, \
      open(csvfiles['nodes'], 'rt') as csvfile2, \
-     open(csvfiles['edges'], 'rt') as csvfile3, \
      open(csvfiles['names'], 'rt') as csvfile4:
     # Csv-file with information on each novel, columns: Book_ID, Title, Author, Publisher, Gender_author, Birthtyear_author Perspective (1stpers, 3rdpers, multi, other)
     BOOKS_AF_test = csv.reader(csvfile1, delimiter=',')
     # Csv-file with information on characters, columns: Book-ID, Character-ID, Name, Gender, Descent, Age, Education, Profession
     NODES_AF_test = csv.reader(csvfile2, delimiter=',')
-    # Csv-file with information on character relations, columns: Book-ID, Source, Target, Relation-type
-    EDGES_AF_test = csv.reader(csvfile3, delimiter=',')
     # Csv-file with information on name variances, columns: Book-ID, Character-ID, Name-ID, Name-variances
     NAMES_AF_test = csv.reader(csvfile4, delimiter=',')
 
@@ -62,12 +59,12 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
             title = line[1]
             name_author = line[2]
             gender_author = line[3]
-            age_author = line[4]
+            nationality_author = line[4]
             publisher = line[5]
             perspective = line[6]
             filename = line[7]
 
-            allbooks[book_id] = Book(book_id, title, name_author, gender_author, age_author, publisher, perspective, filename)
+            allbooks[book_id] = Book(book_id, title, name_author, gender_author, nationality_author, publisher, perspective, filename)
 
     for line in NODES_AF_test:
         """ Creates instances of Character for every character in the corpus and adds them to instances of Book
@@ -110,20 +107,20 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
             allbooks[book_id].allcharacters[character_id].addnamevariant(name_variant)
 
 
-    for line in EDGES_AF_test:
-        """ Add edges to instances of Network in instances of Book 
+    # for line in EDGES_AF_test:
+    #     """ Add edges to instances of Network in instances of Book 
 
-        """
-        book_id = line[0]
+    #     """
+    #     book_id = line[0]
 
-        if book_id.isdigit(): # Check if book_id is a digit
+    #     if book_id.isdigit(): # Check if book_id is a digit
 
-            source = line[1]
-            target = line[2]
-            relation_type = line[3]
+    #         source = line[1]
+    #         target = line[2]
+    #         relation_type = line[3]
 
 
-            allbooks[book_id].network.add_edge(source, target, relation_type)
+    #         allbooks[book_id].network.add_edge(source, target, relation_type)
 
 
     # 4. OUTPUT

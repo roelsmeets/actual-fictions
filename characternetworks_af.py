@@ -110,15 +110,15 @@ class Book:
         book_id = An integer representing the number of the book on the Libris list (aplhabetically ordered)
         title = A string representing the title of the book
         name_author = A string representing the name of the author
-        gender_author = An integer representing a code for the gender of the author (1 = male, 2 = female)
-        age_author = An integer representing a code for the age of the author (1 = <25, 2 = 26-35, 3 = 36-45, 4= 46-55, 5 = 56-64, 6 = 65+)
+        gender_author = An integer representing a code for the gender of the author (0 = male, 1 = female)
+        nationality_author = An integer representing a code for the nationality of the author (0 = Dutch, 1 = Flemish)
         publisher = A string representing the name of the publisher 
         perspective = An integer representing a code for the narrative situtation in the novel (1 = 1stpers, 2 = 3rdpers, 3 = multi, 4 = other)
         filename =  A string representing the name of the plain text file of the novel, ending with '_clean.txt'
         word_count = An integer representing the number of words the book has
     """
 
-    def __init__(self, book_id, title, name_author, gender_author, age_author, publisher, perspective, filename):
+    def __init__(self, book_id, title, name_author, gender_author, nationality_author, publisher, perspective, filename):
         self.allcharacters = {}
         self.originaltext = ""
         self.markedtext = ""
@@ -129,13 +129,13 @@ class Book:
         self.title = title
         self.name_author = name_author
         self.gender_author = gender_author
-        self.age_author = age_author
+        self.nationality_author = nationality_author
         self.publisher = publisher
         self.perspective = perspective
         self.filename = filename
         self.word_count = 0
         self.name_counts = {}
-        self.network = Network(book_id, self.word_count, self.gender_author, self.age_author) # Every time a book object is created, a Network object is also created
+        self.network = Network(book_id, self.word_count, self.gender_author, self.nationality_author) # Every time a book object is created, a Network object is also created
     
 
 
@@ -338,7 +338,7 @@ class Book:
         tokenizer.process(self.markedtext)
 
 
-        # Print number of words of the text
+        #Print number of words of the text
         # nr_of_tokens = 0
         # for token in tokenizer:
         #     nr_of_tokens += 1
@@ -346,7 +346,7 @@ class Book:
 
 
 
-        # Print all tokens in the text
+        # #Print all tokens in the text
         # for token in tokenizer:
         #     print(str(token))
         #     if token.isendofsentence():
@@ -360,8 +360,8 @@ class Book:
             sentence = re.sub('\s*\|\s*','|',sentence)
             self.markedtext_sentences.append(sentence)
             #print(sentence)
-        # for sentence in self.markedtext_sentences:
-        #     print (sentence)
+        for sentence in self.markedtext_sentences:
+            print (sentence)
 
     
 
