@@ -358,10 +358,13 @@ class Book:
 
         for sentence in tokenizer.sentences():
             sentence = re.sub('\s*\|\s*','|',sentence)
+            if '\n' in sentence:
+                print ('LINE BREAK:', sentence)
+            sentence = sentence.replace('\n', ' ')
             self.markedtext_sentences.append(sentence)
             #print(sentence)
-        for sentence in self.markedtext_sentences:
-            print (sentence)
+        # for sentence in self.markedtext_sentences:
+        #     print (sentence)
 
     
 
