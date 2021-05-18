@@ -60,6 +60,8 @@ class Character:
         self.profession = profession
         self.isfirstperson = False
 
+        #self.descent_recode = ''
+
         self.marked_name = list(self.name) 
         self.marked_name = '|'.join(self.marked_name)
         self.namecode = self.book_id+'_'+self.character_id+'_'+self.marked_name.replace(' ','+++') # DOES THIS MATCH THE NAMECODE IN def replace_namvariants?
@@ -793,6 +795,7 @@ class Network():
         nx.set_node_attributes(self.Graph, closeness_dict, 'closeness')
         nx.set_node_attributes(self.Graph, eigenvector_dict, 'eigenvector')
         nx.set_node_attributes(self.Graph, katz_dict, 'katz')
+        nx.set_node_attributes(self.Graph, self.gender_author, 'gender_author')
 
 
         # print(nx.info(self.Graph)) # Print information about the Graph   
@@ -917,7 +920,10 @@ class Network():
                             nx.get_node_attributes(self.Graph, 'betweenness')[character_id], \
                             nx.get_node_attributes(self.Graph, 'closeness')[character_id], \
                             nx.get_node_attributes(self.Graph, 'eigenvector')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'katz')[character_id]])
+                            nx.get_node_attributes(self.Graph, 'katz')[character_id], \
+                            nx.get_node_attributes(self.Graph, 'gender_author')[character_id], \
+                            'corpus_ES-1960s']
+                            )
 
 
 
