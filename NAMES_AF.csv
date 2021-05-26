@@ -1,0 +1,2668 @@
+book_id,character_id,name,name_variant
+1,1,Kaay,Kaay
+1,2,Rosa,Rosa
+1,3,Carlo,Carlo
+1,4,Nina,Nina
+1,5,Anna Montana,Anna Montana
+1,6,Vincentius,Vincentius
+1,7,Paola,Paola
+1,8,Mario,Mario
+1,9,Emilia,Emilia
+1,10,Magliano,Magliano
+1,11,Theo,Theo
+1,12,So,So
+2,1,Jonathan,Jonathan
+2,2,John,John
+2,2,John,Barton
+2,2,John,John Barton
+2,3,Käthe,Käthe
+2,4,Suze,Suze
+2,5,Jansen,Jansen
+2,6,Claudina,Claudina
+2,7,Doris,Doris
+2,8,Karel,Karel
+2,8,Karel,Karei
+2,9,Teresa,Teresa
+2,10,W. van Driel,W. van Driel
+2,10,W. van Driel,Van Driel
+2,11,Anka,Anka
+2,12,Rudolf,Rudolf
+2,13,A. van Titsentatsen,A. van Titsentatsen
+2,14,Tonny,Tonny
+2,15,Miroja,Miroja
+3,1,Louis,Louis
+3,1,Louis,Louis de Lichte
+3,2,Jan de Vos,Jan de Vos
+3,2,Jan de Vos,De Vos
+3,2,Jan de Vos,de Vos
+3,3,Marieke,Marieke
+3,4,Leentje,Leentje
+3,5,Annemie,Annemie
+3,6,Jan de Lichte,Jan de Lichte
+3,7,Judoca,Judoca
+3,8,Jean,Jean
+3,9,Jacques,Jacques
+3,10,Cottenier,Cottenier
+3,11,Mie,Mie
+3,12,Livina,Livina
+3,13,Tineke,Tineke
+3,14,Tjeef,Tjeef
+4,1,Teta,Teta
+4,2,mevrouw Cercleres,mevrouw Cercleres
+4,3,Hester,Hester
+4,4,Braam,Braam
+4,4,Braam,Alwyn
+4,5,Colonia,Colonia
+4,6,Lom,Lom
+4,7,Cassa,Cassa
+4,8,Bob,Bob
+4,9,Truus,Truus
+4,10,Jo,Jo
+4,10,Jo,Jo Slot
+4,11,Henk,Henk
+4,12,Bakker,Bakker
+4,13,Klokpost,Klokpost
+4,14,Mevrouw Terree,Mevrouw Terree
+4,14,Mevrouw Terree,mevrouw Terree
+4,15,Bakker de Cleo,Bakker de Cleo
+4,16,Carlo,Carlo
+4,17,Els,Els
+5,1,Tom,Tom
+5,2,Akijn,Akijn
+5,3,Trix,Trix
+5,4,meneer Koetsier,meneer Koetsier
+5,4,meneer Koetsier,heer Koetsier
+5,4,meneer Koetsier,Meneer Koetsier
+5,4,meneer Koetsier,Heer Koetsier
+5,5,Van Zanten,Van Zanten
+5,6,Ernstje,Ernstje
+5,7,Grijp,Grijp
+5,8,Van der Weiden,Van der Weiden
+6,1,Boelie,Boelie
+6,2,Mees,Mees
+6,3,Panda,Panda
+6,4,Etta,Etta
+6,5,Ernst-Jan,Ernst-Jan
+6,6,Tjeerd,Tjeerd
+6,7,Jens,Jens
+6,8,meneer Veninga,meneer Veninga
+6,8,meneer Veninga,Meneer Veninga
+6,9,mevrouw Veninga,mevrouw Veninga
+6,9,mevrouw Veninga,Mevrouw Veninga
+6,10,Wim,Wim
+6,11,Michel,Michel
+6,12,Steffie,Steffie
+6,13,Rosa,Rosa
+6,14,Ramon,Ramon
+6,15,Dries,Dries
+6,16,Dolf,Dolf
+6,17,Aschwin,Aschwin
+6,18,Kees,Kees
+7,1,Lily,Lily
+7,1,Lily,Lilies
+7,1,Lily,Lilian
+7,2,David,David
+7,3,Julian,Julian
+7,4,Ellen,Ellen
+7,5,Kik,Kik
+7,6,Sari,Sari
+7,7,Pim,Pim
+7,8,Las,Las
+8,1,Ik,Ik
+8,2,Mevrouw Nopjes,Mevrouw Nopjes
+8,2,Mevrouw Nopjes,mevrouw Nopjes
+8,3,Gaston,Gaston
+8,3,Gaston,Pa Gaston
+8,4,Michelle,Michelle
+8,5,Simone,Simone
+8,6,Mevrouw I,Mevrouw I
+8,7,Merks,Merks
+8,8,Mejuffrouw Lams,Mejuffrouw Lams
+8,8,Mejuffrouw Lams,juffrouw Lams
+8,9,Edna,Edna
+8,10,Jenny,Jenny
+8,11,Manus,Manus
+8,12,Fran,Fran
+8,13,Aline,Aline
+8,14,juffrouw De Moor,juffrouw De Moor
+8,14,juffrouw De Moor,Heieen
+8,14,juffrouw De Moor,Heleen
+8,15,Karel,Karel
+8,15,Karel,Karei
+8,16,Lydia,Lydia
+8,17,Alice,Alice
+8,18,Frédérique,Frédérique
+8,19,Fred,Fred
+8,20,Jo,Jo
+8,20,Jo,Jo Merels
+8,21,Juffrouw Delaere,Juffrouw Delaere
+8,21,Juffrouw Delaere,juffrouw Delaere
+8,22,Jeannot,Jeannot
+9,1,Lydia,Lydia
+9,2,Irene,Irene
+9,3,Bea,Bea
+9,4,Charles,Charles
+9,5,Henk,Henk
+9,6,Lou,Lou
+9,6,Lou,Loutje
+9,7,Frank,Frank
+9,8,Eveline,Eveline
+9,9,Fred,Fred
+9,10,Lieneke,Lieneke
+9,11,Paul,Paul
+9,12,Anna,Anna
+9,13,Jaap,Jaap
+9,14,Charles Back,Charles Back
+9,15,Carla,Carla
+9,16,Trix,Trix
+10,1,Karl,Karl
+10,1,Karl,Karlchen
+10,2,Jettie,Jettie
+10,2,Jettie,Jetje
+10,2,Jettie,Jettie Korver
+10,2,Jettie,Jetje Korver
+10,3,Marjan,Marjan
+10,4,Ineke,Ineke
+10,5,Thea,Thea
+10,6,Floor,Floor
+10,7,Korver,Korver
+10,7,Korver,Pa Korver
+10,7,Korver,meneer Korver
+10,8,mevrouw Korver,mevrouw Korver
+10,8,mevrouw Korver,juffrouw Korver
+10,8,mevrouw Korver,Mevrouw Korver
+10,8,mevrouw Korver,Juffrouw Korver
+10,9,Willy,Willy
+10,10,Liesbeth,Liesbeth
+10,11,Kees,Kees
+10,12,Miens moeder,Miens moeder
+10,13,Mien,Mien
+10,14,Marietje,Marietje
+10,15,Joke,Joke
+10,16,Steefje,Steefje
+10,17,Tante Floor,Tante Floor
+10,18,Hannie,Hannie
+11,1,Verdoold,Verdoold
+11,2,Rosalia,Rosalia
+11,2,Rosalia,RosaHa
+11,3,Benno,Benno
+11,4,Anninhas,Anninhas
+11,5,Miguel,Miguel
+11,6,Joachim,Joachim
+11,7,Aurora,Aurora
+11,8,Olga,Olga
+11,9,Lilo,Lilo
+11,10,David,David
+11,11,Lea,Lea
+11,12,Lotte,Lotte
+11,13,Emilia,Emilia
+11,14,Carlos,Carlos
+11,15,Maria Christina,Maria Christina
+11,16,Gallo,Gallo
+11,16,Gallo,Virgilio
+11,17,Inez,Inez
+11,18,Martha,Martha
+11,19,Karl,Karl
+11,20,Clara,Clara
+11,21,Natalia,Natalia
+11,21,Natalia,Nataha
+12,1,Klaas,Klaas
+12,2,Piet,Piet
+12,3,Leetje,Leetje
+12,4,Vellenius,Vellenius
+12,4,Vellenius,Janus
+12,4,Vellenius,Janus Vellenius
+12,5,Ellie,Ellie
+12,6,Anna,Anna
+12,7,Jacob,Jacob
+12,8,Hammer,Hammer
+12,8,Hammer,dr Hammer
+12,9,Paps,Paps
+12,10,Tamon,Tamon
+12,11,Rachel,Rachel
+12,12,Jacomina,Jacomina
+12,13,Jaap,Jaap
+12,14,Pieter Blaesz,Pieter Blaesz
+12,15,Annie,Annie
+12,16,Karel,Karel
+12,16,Karel,Karei
+13,1,Evelien,Evelien
+13,2,Vera,Vera
+13,3,Han,Han
+13,4,Evie,Evie
+13,5,Barend,Barend
+13,6,E. van Brugge,E. van Brugge
+13,7,Marjon,Marjon
+13,8,John,John
+13,9,Van Hemeldonck,Van Hemeldonck
+13,10,Martha,Martha
+13,11,Mies,Mies
+13,12,Corry,Corry
+13,13,Ben,Ben
+13,14,Wim,Wim
+13,15,Jan,Jan
+14,1,Hans,Hans
+14,1,Hans,Henkemans
+14,1,Hans,Hans Henkemans
+14,2,Hendrika,Hendrika
+14,3,Mozart,Mozart
+14,4,Debussy,Debussy
+14,5,Chopin,Chopin
+14,6,Haydn,Haydn
+14,7,Stravinsky,Stravinsky
+15,1,Ineke,Ineke
+15,2,Lucas,Lucas
+15,3,Piet,Piet
+15,4,Petra,Petra
+15,5,Bertje,Bertje
+15,6,Françoise,Françoise
+15,7,Louis,Louis
+15,8,Blériotte,Blériotte
+15,9,Pierre,Pierre
+15,10,Marie José Neuville,Marie José Neuville
+15,11,Ida,Ida
+15,12,Daniël,Daniël
+15,12,Daniël,Daan
+15,13,Geert,Geert
+16,1,Wouter,Wouter
+16,2,Aaike,Aaike
+16,2,Aaike,Gekke Aaike
+16,3,Miesje,Miesje
+16,3,Miesje,Mies
+16,4,Tjerk,Tjerk
+16,5,Beckers,Beckers
+16,6,Herman,Herman
+16,7,Leeckeren,Leeckeren
+16,8,Mertens,Mertens
+17,1,Gerrit,Gerrit
+17,1,Gerrit,Gerrit Klaas
+17,1,Gerrit,Klaas
+17,1,Gerrit,Gerrit Klaas van Sinea
+17,2,Albert,Albert
+17,2,Albert,Albert Quintijn
+17,2,Albert,Quintijn
+17,3,Sjouke,Sjouke
+17,4,Maaike,Maaike
+17,4,Maaike,Maaike van Sinea
+17,5,Hendrik,Hendrik
+17,6,Titus,Titus
+17,6,Titus,Broeder Titus
+17,7,Tjerd,Tjerd
+17,8,Doefje,Doefje
+17,9,Ruurd,Ruurd
+17,10,Petronella,Petronella
+17,11,Derk,Derk
+17,12,Hendrik,Hendrik
+17,12,Hendrik,Hendrik van Sinea
+17,13,Foeke,Foeke
+17,14,Ernst,Ernst
+17,15,Frouke,Frouke
+17,16,David,David
+17,17,Douwe,Douwe
+17,18,Andreas,Andreas
+17,19,Sieben,Sieben
+17,20,Henri,Henri
+17,21,Maximiliaan,Maximiliaan
+18,1,Keller,Keller
+18,1,Keller,Otto Keiler
+18,1,Keller,Otto
+18,1,Keller,Keiler
+18,1,Keller,Otto Keller
+18,2,Lucy,Lucy
+18,3,Helen,Helen
+18,4,Wilkins,Wilkins
+18,4,Wilkins,dokter Wilkins
+18,5,Kramer,Kramer
+18,5,Kramer,kapitein Kramer
+18,6,Norton,Norton
+18,7,Herbert,Herbert
+18,8,Sylvia,Sylvia
+18,9,Ans,Ans
+18,9,Ans,Ans Munster
+18,10,Goedhals,Goedhals
+18,11,Els,Els
+18,12,Paul,Paul
+18,12,Paul,Paul Munster
+18,13,Gerda,Gerda
+18,13,Gerda,Gerda Hartog
+18,14,Emmy,Emmy
+18,15,Hartog,Hartog
+18,16,Lois,Lois
+18,17,Tom,Tom
+18,18,Annie,Annie
+18,19,De Graaf,De Graaf
+18,20,Van Beveren,Van Beveren
+19,1,Inge,Inge
+19,2,Marion,Marion
+19,3,Bram,Bram
+19,3,Bram,Bram Dubois
+19,4,Jaap,Jaap
+19,4,Jaap,Jaap Dubois
+19,5,Reinier,Reinier
+19,6,Edith,Edith
+19,6,Edith,Eddy
+19,7,Harro,Harro
+19,8,Rein,Rein
+19,8,Rein,Rein Jr.
+19,9,Charlot,Charlot
+19,9,Charlot,Charlotteke
+19,9,Charlot,Charlotte
+19,10,Gert,Gert
+19,10,Gert,Gert Dubois
+19,11,Erik,Erik
+19,12,Diederick,Diederick
+19,13,Loesje,Loesje
+19,14,Marlies,Marlies
+19,14,Marlies,Marlies Dubois
+19,15,Toos,Toos
+19,16,Arend,Arend
+19,17,Robin,Robin
+19,18,Monica,Monica
+19,19,Magda,Magda
+19,20,Juliette,Juliette
+19,21,Laurens,Laurens
+19,22,Koert,Koert
+20,1,Elisabeth,Elisabeth
+20,1,Elisabeth,Lisa
+20,1,Elisabeth,Liesbeth
+20,1,Elisabeth,Betje
+20,2,Eugène,Eugène
+20,2,Eugène,Eugène Simon
+20,3,Jan,Jan
+20,3,Jan,Jan Harrison
+20,4,Nel,Nel
+20,5,Steffen,Steffen
+20,6,Karel,Karel
+20,6,Karel,Karei
+20,7,Letty,Letty
+20,8,Dick,Dick
+20,8,Dick,Dicky
+20,9,Erik,Erik
+20,10,Tan,Tan
+20,11,Martha,Martha
+20,12,Lisette,Lisette
+20,13,Nina,Nina
+20,14,Yvonne,Yvonne
+21,1,Lodewijk,Lodewijk
+21,1,Lodewijk,Lodewijk Ingwersen
+21,1,Lodewijk,Kapitein Lodewijk Ingwersen
+21,1,Lodewijk,kapitein Ingwersen
+21,2,Arlene,Arlene
+21,2,Arlene,madame Ellerman
+21,2,Arlene,mevrouw Ellerman
+21,2,Arlene,Mevrouw Ellerman
+21,2,Arlene,Mrs Ellerman
+21,3,Harrison,Harrison
+21,4,Gerland,Gerland
+21,4,Gerland,mevrouw Hemmema
+21,4,Gerland,Mevrouw Hemmema
+21,5,Elvis,Elvis
+21,5,Elvis,Babcock
+21,5,Elvis,D.A. Elvis
+21,6,Samuel,Samuel
+21,6,Samuel,Levinsohn
+21,6,Samuel,Samuel Levinsohn
+21,7,Yvonne,Yvonne
+21,8,Ann,Ann
+21,8,Ann,Greenberg
+21,8,Ann,Ann Greenberg
+21,9,Dick,Dick
+21,9,Dick,Fanshaw
+21,9,Dick,Dicky
+21,9,Dick,Dick Fanshaw
+21,10,Homer,Homer
+21,10,Homer,professor Greenberg
+21,10,Homer,Professor Greenberg
+21,11,Paul,Paul
+21,11,Paul,mijnheer Dupont
+21,11,Paul,Mijnheer Dupont
+21,12,Bridget,Bridget
+21,12,Bridget,miss O' Sullivan
+21,12,Bridget,juffrouw O' Sullivan
+21,12,Bridget,Miss O' Sullivan
+21,12,Bridget,Juffrouw O' Sullivan
+21,12,Bridget,miss O' Suilivan
+21,12,Bridget,juffrouw O' Suilivan
+21,12,Bridget,Miss O' Suilivan
+21,12,Bridget,Juffrouw O' Suilivan
+21,13,Sloshey,Sloshey
+21,13,Sloshey,dokter
+21,13,Sloshey,Dokter
+21,13,Sloshey,Agamemnon
+21,14,McBride,McBride
+21,14,McBride,James
+21,14,McBride,James McBride
+21,15,Proctor,Proctor
+21,15,Proctor,rechter
+21,15,Proctor,Edelachtbare
+21,16,Richard,Richard
+21,16,Richard,Linley Fanshaw
+21,16,Richard,Richard Linley Fanshaw
+21,17,Sidin,Sidin
+21,18,Rutger,Rutger
+21,19,Josiah,Josiah
+21,19,Josiah,heer Ellerman
+22,1,Christiaan,Christiaan
+22,2,Karel,Karel
+22,3,Connie,Connie
+22,4,Emma,Emma
+22,5,Frédérique,Frédérique
+22,5,Frédérique,Tante
+22,5,Frédérique,Frédérique
+22,6,Jantje,Jantje
+22,7,André,André
+22,8,Henk,Henk
+22,9,Carla,Carla
+23,1,Orlando,Orlando
+23,2,Roosje,Roosje
+23,3,Jean,Jean
+23,4,Emma,Emma
+23,5,Louis,Louis
+23,6,Paul,Paul
+23,7,Laure,Laure
+23,7,Laure,Valdès
+23,7,Laure,Laure Valdès
+23,8,Pierre,Pierre
+23,8,Pierre,Tourtier
+23,8,Pierre,Pierre Tourtier
+23,9,Fons,Fons
+23,9,Fons,Messelaar
+23,9,Fons,Fons Messelaar
+23,10,Beria,Beria
+23,11,Marianne,Marianne
+23,12,Tombalion,Tombalion
+23,13,mevrouw Brettschneider,mevrouw Brettschneider
+23,13,mevrouw Brettschneider,Mevrouw Brettschneider
+23,14,Vera,Vera
+23,14,Vera,Tsjernova
+23,15,Florijn,Florijn
+23,16,Annie,Annie
+24,1,Godgegeven,Godgegeven
+24,1,Godgegeven,Breekwater
+24,2,Lokien,Lokien
+24,3,Merel,Merel
+24,4,Naomi,Naomi
+24,5,Viëtor,Viëtor
+24,6,Bender,Bender
+24,7,Timman,Timman
+25,1,Myriam,Myriam
+25,2,Nathan,Nathan
+25,2,Nathan,Barnstein
+25,2,Nathan,Nathan Barnstein
+25,3,Suze,Suze
+25,4,Ruben,Ruben
+25,5,Léon,Léon
+25,6,Sarah,Sarah
+25,7,Jo,Jo
+25,7,Jo,Jopie
+25,7,Jo,Bosman
+25,7,Jo,Jo Bosman
+25,7,Jo,Jopie Bosman
+25,8,Gideon,Gideon
+25,9,Simon,Simon
+25,10,Sem,Sem
+25,11,mevrouw Kater,mevrouw Kater
+25,11,mevrouw Kater,juffrouw Kater
+25,12,Sal,Sal
+25,13,Sam,Sam
+25,14,Manuel,Manuel
+25,15,Bernard,Bernard
+25,15,Bernard,mijnheer Joëls
+25,15,Bernard,heer Joëls
+25,15,Bernard,Joëls
+25,15,Bernard,Bernard Joëls
+25,16,Klazien,Klazien
+25,17,David,David
+25,18,Rika,Rika
+25,19,Rebecca,Rebecca
+25,20,Liesje,Liesje
+26,1,Herman,Herman
+26,2,Walter,Walter
+26,3,Billy,Billy
+26,4,Deborah,Deborah
+26,5,Erik,Erik
+26,6,Lien,Lien
+26,7,Boyd,Boyd
+26,8,Morfie,Morfie
+26,9,Jan,Jan
+26,10,Chris,Chris
+26,11,Claude,Claude
+26,12,Joachim,Joachim
+26,13,Sonja,Sonja
+27,1,Peter,Peter
+27,2,Garo,Garo
+27,3,Rim,Rim
+27,4,Bleek,Bleek
+27,4,Bleek,Bleck
+27,5,Claude,Claude
+27,5,Claude,Peter-Claude
+27,5,Claude,de Jongen
+27,5,Claude,De Jongen
+27,6,Alfred,Alfred
+28,1,Ik,Ik
+28,2,Joop,Joop
+28,2,Joop,Josephus
+28,3,Maartje,Maartje
+28,4,Wilhelmus,Wilhelmus
+28,5,Bram,Bram
+28,5,Bram,Van Heel
+28,5,Bram,van Heel
+28,5,Bram,Bram van Heel
+28,6,Elsje,Elsje
+28,7,Johannes,Johannes
+28,8,Abraham,Abraham
+29,1,Ik,Ik
+29,2,mijn vader,mijn vader
+29,2,mijn vader,Mijn vader
+29,3,Rein,Rein
+29,4,P.,P.
+29,4,P.,dr P.
+29,5,Salim,Salim
+29,6,Lennart,Lennart
+29,7,K.,K.
+29,8,Hans,Hans
+29,9,Marjolein,Marjolein
+30,1,Gilles,Gilles
+30,2,Puck,Puck
+30,3,Toto,Toto
+30,4,Kees,Kees
+30,5,Truida,Truida
+30,6,Han,Han
+30,7,Arno,Arno
+30,8,Yvonne,Yvonne
+30,9,Frits,Frits
+30,10,Liza,Liza
+30,11,Mina,Mina
+30,12,mevrouw Diericx,mevrouw Diericx
+30,12,mevrouw Diericx,Mevrouw Diericx
+30,13,meneer Diericx,meneer Diericx
+30,13,meneer Diericx,Meneer Diericx
+30,14,Delfine,Delfine
+30,15,Paul,Paul
+30,16,Daniël,Daniël
+30,17,Smith,Smith
+30,18,Zilla,Zilla
+30,19,Glory,Glory
+30,20,Anna,Anna
+30,21,Celia,Celia
+30,22,Heiltje,Heiltje
+30,23,Leo,Leo
+30,24,Stefanie,Stefanie
+31,1,Ada,Ada
+31,2,Marion,Marion
+31,3,Frits,Frits
+31,4,Rob,Rob
+31,5,Jeanet,Jeanet
+31,6,Leo,Leo
+31,7,Ina,Ina
+31,8,Dolf,Dolf
+31,9,Jo,Jo
+31,10,Maarten,Maarten
+31,11,Willem,Willem
+31,12,Kareltje,Kareltje
+31,13,Nelly,Nelly
+31,14,Geert,Geert
+31,15,Chris,Chris
+31,16,Hilda,Hilda
+31,17,Loesje,Loesje
+31,18,Lily,Lily
+31,19,Deetje,Deetje
+31,19,Deetje,Dee
+31,20,Millie,Millie
+31,21,Bep,Bep
+32,1,Helena,Helena
+32,2,Edward,Edward
+32,3,Anne,Anne
+32,4,Marie,Marie
+32,5,Maurice,Maurice
+32,6,Jacques,Jacques
+32,7,Bernard,Bernard
+32,8,Charles,Charles
+32,9,Pierre,Pierre
+32,10,Marcel,Marcel
+32,11,Henri,Henri
+32,12,Jean,Jean
+32,13,Bernadette,Bernadette
+32,14,José,José
+32,15,Madame d'Albert,Madame d'Albert
+32,15,Madame d'Albert,madame d'Albert
+33,1,Lucie,Lucie
+33,2,Ebbinge,Ebbinge
+33,3,Frau Ebbinger,Frau Ebbinger
+33,4,Anna,Anna
+33,5,Charles,Charles
+33,6,Babs,Babs
+33,7,Mathias,Mathias
+33,7,Mathias,Moderegger
+33,7,Mathias,Mathias Moderegger
+33,8,Wilhelm,Wilhelm
+33,8,Wilhelm,Muller
+33,8,Wilhelm,Wilhelm Muller
+33,9,Georg,Georg
+33,9,Georg,Kühlmann
+33,9,Georg,Georg Kühlmann
+33,10,Toni,Toni
+33,11,Henk,Henk
+33,12,Karl,Karl
+33,13,Kathi,Kathi
+33,14,Frau Hiller,Frau Hiller
+34,1,Matty,Matty
+34,2,Eileen,Eileen
+34,3,Rinie,Rinie
+34,3,Rinie,Rinaldo Rinaldini
+34,4,Mortimer,Mortimer
+34,5,Winnie,Winnie
+34,6,Ditzy,Ditzy
+34,7,Oscar,Oscar
+34,8,Hennie,Hennie
+34,9,Saskia,Saskia
+34,10,Erzilia,Erzilia
+34,11,Stikkelorum,Stikkelorum
+34,12,Algie,Algie
+34,12,Algie,Boomkikvors
+35,1,Jan,Jan
+35,1,Jan,Jan Houtekiet
+35,2,Jacob,Jacob
+35,3,Fokke,Fokke
+35,4,Beaat,Beaat
+35,5,Max,Max
+35,6,David,David
+35,7,Melia,Melia
+35,8,Kerlien,Kerlien
+35,9,Nard,Nard
+35,9,Nard,Baert
+35,10,Lien,Lien
+35,11,Wijnand,Wijnand
+35,12,Marie,Marie
+35,13,Dries,Dries
+35,14,Zjoken,Zjoken
+35,15,Frans,Frans
+35,16,Flor,Flor
+35,16,Flor,Florent
+35,17,Rosalie,Rosalie
+35,18,Valerie,Valerie
+35,19,Jeske,Jeske
+35,20,Dora,Dora
+35,21,Liza,Liza
+35,22,Lucas,Lucas
+35,23,Felix,Felix
+35,24,Naat,Naat
+35,25,Joep,Joep
+36,1,Theo,Theo
+36,2,Stine,Stine
+36,3,Inga,Inga
+36,4,Oom Haring,Oom Haring
+36,4,Oom Haring,oom haring
+36,5,Anka,Anka
+36,6,Dorus,Dorus
+36,7,Bé,Bé
+36,7,Bé,Béa
+36,8,neef Peters,neef Peters
+36,9,Louis,Louis
+36,10,Mondriaan,Mondriaan
+36,11,Eysinga,Eysinga
+36,12,Gerrit,Gerrit
+36,13,Nadia,Nadia
+36,13,Nadia,Tilde
+36,14,meester Colenbrander,meester Colenbrander
+36,14,meester Colenbrander,Meester Colenbrander
+36,15,Tom,Tom
+36,16,Hanny,Hanny
+36,17,Peter,Peter
+36,18,Herman,Herman
+36,19,Mieke,Mieke
+37,1,Ik,Ik
+37,2,Odysseus,Odysseus
+37,3,Circe,Circe
+37,4,Jan,Jan
+37,5,Sirenen,Sirenen
+37,6,Paolo,Paolo
+37,7,Pietro,Pietro
+37,8,Homeros,Homeros
+37,9,Signora Zancani,Signora Zancani
+37,9,Signora Zancani,signora Zancani
+37,10,Nestor,Nestor
+37,11,Arturo,Arturo
+37,12,Carmen,Carmen
+37,13,Amadeo,Amadeo
+37,14,Anselmo,Anselmo
+37,15,Salvatino,Salvatino
+37,16,Anna,Anna
+37,17,Ennio,Ennio
+37,18,Cesare,Cesare
+38,1,Grant,Grant
+38,1,Grant,Generaal Grant
+38,1,Grant,generaal Grant
+38,2,Lincoln,Lincoln
+38,3,Kate,Kate
+38,3,Kate,Kate Chase
+38,4,William,William
+38,4,William,Mr. Sprague
+38,4,William,mr. Sprague
+38,4,William,Senator Sprague
+38,4,William,senator Sprague
+38,4,William,William Sprague
+38,5,Halleck,Halleck
+38,6,Stanton,Stanton
+38,7,McClellan,McClellan
+38,8,Joe,Joe
+38,8,Joe,Hooker
+38,8,Joe,Joe Hooker
+38,9,Burnside,Burnside
+38,10,Bill,Bill
+38,10,Bill,Sherman
+38,10,Bill,Bill Sherman
+38,11,Julia,Julia
+38,11,Julia,mevrouw Grant
+38,11,Julia,Mevrouw Grant
+38,11,Julia,Julia Grant
+38,12,Lee,Lee
+38,13,Stuart,Stuart
+38,14,Chase,Chase
+38,15,Mrs. Lincoln,Mrs. Lincoln
+38,16,Mrs. Sherman,Mrs. Sherman
+38,17,Rose,Rose
+38,18,kleine Rose,kleine Rose
+39,1,Ik,Ik
+39,2,H.,H.
+39,3,W.,W.
+39,4,G.,G.
+39,5,Colijn,Colijn
+39,6,Tito,Tito
+39,7,Hitler,Hitler
+39,8,Mikailowitsj,Mikailowitsj
+39,9,M.,M.
+39,10,Hirschfeld,Hirschfeld
+39,11,Eichmann,Eichmann
+39,12,Badings,Badings
+39,13,Heusinger,Heusinger
+39,14,Göring,Göring
+39,15,Maclean,Maclean
+39,16,Chassé,Chassé
+39,17,Driekus,Driekus
+39,18,Grüber,Grüber
+39,18,Grüber,Probst
+40,1,Monica,Monica
+40,2,Job,Job
+40,3,Robert,Robert
+40,4,Hans,Hans
+40,5,mevrouw Falck,mevrouw Falck
+40,5,mevrouw Falck,Mevrouw Falck
+40,6,Ellen,Ellen
+40,7,Louise,Louise
+40,8,Bernt,Bernt
+40,9,dokter Alting,dokter Alting
+40,9,dokter Alting,Dokter Alting
+40,10,Lily,Lily
+40,11,Pol,Pol
+40,12,Jant,Jant
+40,13,Marianne,Marianne
+40,14,Edward,Edward
+41,1,Ik,Ik
+41,1,Ik,Tk
+41,2,Dirk,Dirk
+41,3,Daan,Daan
+41,4,Bart,Bart
+41,5,Cap,Cap
+41,6,Ahmad,Ahmad
+41,7,Wim,Wim
+41,8,Hans,Hans
+41,9,Kees,Kees
+41,10,Emmy,Emmy
+42,1,Grégoire,Grégoire
+42,1,Grégoire,Grégoire-Désiré
+42,1,Grégoire,Matsombo
+42,1,Grégoire,Matsombo Grégoire-Désiré
+42,2,Patrice,Patrice
+42,2,Patrice,Patrice Lumumba
+42,2,Patrice,Lumumba
+42,3,Dzambe,Dzambe
+42,4,Matembe,Matembe
+42,5,Damienne,Damienne
+42,6,Vaucel,Vaucel
+42,7,Cathérine,Cathérine
+42,8,Bolikango,Bolikango
+42,9,Marie-Jeanne,Marie-Jeanne
+42,10,Werther,Werther
+43,1,Elly,Elly
+43,2,Ada,Ada
+43,2,Ada,Ada Looier
+43,3,Floor,Floor
+43,3,Floor,Floor Dijker
+43,3,Floor,Dijker
+43,4,Dick,Dick
+43,5,Marjanne,Marjanne
+43,6,Arend,Arend
+43,7,Karel Buizerd,Karel Buizerd
+43,7,Karel Buizerd,Karel
+43,7,Karel Buizerd,Karei Buizerd
+43,7,Karel Buizerd,Karei
+43,7,Karel Buizerd,Buizerd
+43,8,Marie,Marie
+43,9,Aai,Aai
+43,9,Aai,Aai de Beis
+43,10,Klinker,Klinker
+43,11,Looier,Looier
+43,12,Cora,Cora
+43,13,Jan,Jan
+43,14,Marien,Marien
+43,15,Meeuw,Meeuw
+43,15,Meeuw,Van Zanten
+43,15,Meeuw,Meeuw van Zanten
+43,16,Jeanette,Jeanette
+43,17,Emmy,Emmy
+44,1,Peter,Peter
+44,1,Peter,Petertje
+44,1,Peter,kleine Peter
+44,1,Peter,kleine petertje
+44,1,Peter,Peet
+44,2,Susan,Susan
+44,2,Susan,juffrouw Heyting
+44,2,Susan,Suusje
+44,3,Henk,Henk
+44,4,Bertha,Bertha
+44,5,Nel,Nel
+44,6,Lien,Lien
+44,7,Jet,Jet
+44,8,Steven,Steven
+44,9,Verhulst,Verhulst
+44,10,Arend,Arend
+44,10,Arend,Arend Kuyl
+44,10,Arend,Kuyl
+44,11,Kees,Kees
+44,12,Job,Job
+45,1,Jojakim,Jojakim
+45,2,Louise,Louise
+45,3,Henri,Henri
+45,3,Henri,Henri de Talmont
+45,3,Henri,De Talmont
+45,4,Amalia,Amalia
+45,5,Willem,Willem
+45,6,Frederik Hendrik,Frederik Hendrik
+45,6,Frederik Hendrik,Frederik
+45,7,Maurits,Maurits
+45,8,Rebekka,Rebekka
+45,9,Elizabeth,Elizabeth
+45,10,Harold,Harold
+45,11,Eleonora,Eleonora
+46,1,Sera,Sera
+46,1,Sera,Sera Doornstam
+46,2,Leonard,Leonard
+46,3,Doortje,Doortje
+46,4,Joris,Joris
+46,5,Stans,Stans
+46,5,Stans,Stans Deemster
+46,6,Louis,Louis
+46,6,Louis,Louis Deemster
+46,7,Nellie,Nellie
+46,7,Nellie,Nellie Deemster
+46,8,Spiedes,Spiedes
+46,9,Digna,Digna
+46,10,Doornstam,Doornstam
+46,11,Fosfer,Fosfer
+46,12,Valerius,Valerius
+46,13,Casper,Casper
+47,1,Walijne,Walijne
+47,2,Medusa,Medusa
+47,3,Nicolaas,Nicolaas
+47,4,Carl,Carl
+47,5,Tonie,Tonie
+47,6,Bernard,Bernard
+47,6,Bernard,Bernd
+47,7,Louis,Louis
+47,8,Pipi,Pipi
+48,1,Ab,Ab
+48,1,Ab,Ab Aldema
+48,1,Ab,Aldema
+48,1,Ab,Sergeant Aldema
+48,1,Ab,Albrecht Aldema
+48,1,Ab,Albrecht
+48,2,Ekke,Ekke
+48,3,Berend,Berend
+48,4,Piet,Piet
+48,4,Piet,Kuperus
+48,4,Piet,Piet Kuperus
+48,5,Edith,Edith
+48,6,Tonia,Tonia
+48,7,Annelot,Annelot
+48,7,Annelot,Lot
+48,8,Dries,Dries
+48,8,Dries,Dries Bonner
+48,8,Dries,Bonner
+48,9,Dick,Dick
+48,10,Herman,Herman
+48,11,Dientje,Dientje
+48,12,Hiltjse,Hiltjse
+49,1,Ik,Ik
+49,2,Nicolai,Nicolai
+49,3,Mary,Mary
+49,4,Michelle,Michelle
+49,5,Betty,Betty
+49,6,François,François
+49,7,Pasqualina,Pasqualina
+49,8,Luciani,Luciani
+49,9,Noël,Noël
+49,9,Noël,Noël Luciani
+49,9,Noël,Luciani
+49,10,Louis,Louis
+49,10,Louis,Louis Agostini
+49,10,Louis,Agostini
+49,11,Tao,Tao
+50,1,Alida,Alida
+50,1,Alida,Alie
+50,2,Betsy,Betsy
+50,3,Neeltje,Neeltje
+50,4,Paul,Paul
+50,4,Paul,Paul van Belle
+50,4,Paul,Van Belle
+50,5,Karel,Karel
+50,6,Willem,Willem
+50,7,Thijs,Thijs
+50,8,Coba,Coba
+50,9,Bertus,Bertus
+50,9,Bertus,Bertus Maas
+50,9,Bertus,Maas
+50,10,Sonja,Sonja
+50,11,Beppie,Beppie
+50,12,Sonja,Sonja
+50,13,Simone,Simone
+50,14,Charles,Charles
+50,15,Theo,Theo
+50,15,Theo,Simons
+50,15,Theo,Theo Simons
+50,16,Albert,Albert
+50,17,Joyce,Joyce
+50,18,Anna,Anna
+50,19,Rudi,Rudi
+50,19,Rudi,Rudi Groos
+50,19,Rudi,Groos
+50,20,Lena,Lena
+50,21,Joke,Joke
+50,22,Dirk,Dirk
+50,23,Gerrit,Gerrit
+50,24,Van Hulst,Van Hulst
+50,25,Martin,Martin
+51,1,Dian,Dian
+51,2,Robert,Robert
+51,3,Suzon,Suzon
+51,4,Jan de Kop,Jan de Kop
+51,5,Henry,Henry
+51,6,Druntinckx,Druntinckx
+51,6,Druntinckx,Druntinxeck
+51,7,Ties,Ties
+51,8,Mary,Mary
+51,9,Dolores,Dolores
+51,10,Liesbeth,Liesbeth
+51,11,Moppie,Moppie
+51,12,Jan de Leeuw,Jan de Leeuw
+51,13,Stot,Stot
+53,1,Jaap,Jaap
+53,2,Ally,Ally
+53,3,Paul,Paul
+53,4,Else,Else
+53,5,Nolleke,Nolleke
+53,6,Koos,Koos
+53,7,Carla,Carla
+53,8,Lotty,Lotty
+53,9,Alma,Alma
+53,10,Har,Har
+53,11,Geke,Geke
+53,12,Luuk,Luuk
+54,1,Rudolf,Rudolf
+54,1,Rudolf,Rudolf Reyniers
+54,1,Rudolf,Reyniers
+54,2,Denise,Denise
+54,2,Denise,mevrouw Masurel
+54,2,Denise,madame Masurel
+54,2,Denise,Mevrouw Masurel
+54,2,Denise,Madame Masurel
+54,3,Amay,Amay
+54,4,Désirée,Désirée
+54,4,Désirée,Mevrouw Chantraine
+54,4,Désirée,mevrouw Chantraine
+54,4,Désirée,madame Chantraine
+54,4,Désirée,Madame Chantraine
+54,5,Kristien,Kristien
+54,6,Claude,Claude
+54,7,Hermione,Hermione
+55,1,Mevrouw De Veer,Mevrouw De Veer
+55,1,Mevrouw De Veer,mevrouw De Veer
+55,2,Volkert,Volkert
+55,2,Volkert,De Veer
+55,2,Volkert,meneer De Veer
+55,2,Volkert,Meneer De Veer
+55,2,Volkert,Volk
+55,3,Guus,Guus
+55,3,Guus,Gusta
+55,3,Guus,Guus de Veer
+55,4,Mac,Mac
+55,5,Bill,Bill
+55,5,Bill,Billy
+55,6,Kramer,Kramer
+55,7,Jane,Jane
+55,8,Niek,Niek
+55,9,Jaap,Jaap
+55,9,Jaap,Jaap Maarland
+55,9,Jaap,Maarland
+55,10,Annie,Annie
+55,11,Joosten,Joosten
+56,1,Caro,Caro
+56,2,Walt,Walt
+56,2,Walt,Walt de Graaf
+56,2,Walt,De Graaf
+56,3,José,José
+56,4,Marre,Marre
+56,5,Winnie,Winnie
+56,6,Allen,Allen
+56,7,Wouters,Wouters
+57,1,Perquin,Perquin
+57,1,Perquin,Auguste Perquin
+57,1,Perquin,Auguste
+57,2,Henk,Henk
+57,2,Henk,Gerretsen
+57,2,Henk,Henk Gerretsen
+57,3,Van Waveren,Van Waveren
+57,4,Annette,Annette
+57,5,Susanne,Susanne
+57,6,Diekman,Diekman
+57,7,Inge,Inge
+57,8,Kees,Kees
+57,8,Kees,Kees Volkers
+57,8,Kees,Volkers
+57,9,Inge,Inge
+57,10,Christine,Christine
+57,10,Christine,Christine Antoniades
+57,10,Christine,Antoniades
+57,11,Alsem,Alsem
+58,1,Ik,Ik
+58,2,Eichmann,Eichmann
+58,3,Hitler,Hitler
+58,4,Hausner,Hausner
+58,5,Servatius,Servatius
+58,6,Landau,Landau
+58,7,Heydrich,Heydrich
+58,8,Himmler,Himmler
+58,9,Höss,Höss
+58,10,Halevi,Halevi
+58,11,Less,Less
+59,1,Carel,Carel
+59,2,Pieter,Pieter
+59,3,Barbertje,Barbertje
+59,4,Tobias,Tobias
+59,5,Reiniersen,Reiniersen
+59,6,Rembrandt,Rembrandt
+59,7,Barent,Barent
+59,8,Anna,Anna
+59,9,Machteld,Machteld
+59,10,Gerbrand,Gerbrand
+59,11,De Decker,De Decker
+59,12,Van Aelst,Van Aelst
+59,13,Maartje,Maartje
+59,14,Samuel,Samuel
+59,15,Aeltje,Aeltje
+59,16,Valentijn,Valentijn
+59,17,Bramer,Bramer
+59,18,Johannes,Johannes
+59,19,Fabritius,Fabritius
+59,20,Van Asch,Van Asch
+59,21,Hendrickje,Hendrickje
+59,22,Claartje,Claartje
+60,1,Ik,Ik
+60,2,mijnheer Plus,mijnheer Plus
+60,2,mijnheer Plus,Mijnheer Plus
+60,2,mijnheer Plus,heer Plus
+60,3,Elsje,Elsje
+60,4,Doris,Doris
+60,5,Kraaykamp,Kraaykamp
+60,6,Loekie,Loekie
+60,7,Frankie,Frankie
+60,8,Marlon,Marlon
+60,9,Henk,Henk
+60,10,Freddy,Freddy
+60,11,Stikmaartje,Stikmaartje
+61,1,Peter,Peter
+61,1,Peter,Piet
+61,1,Peter,H. ter Wielen
+61,2,Mela,Mela
+61,3,Paul,Paul
+61,3,Paul,Heer van Axel
+61,3,Paul,Plom
+61,4,Marianne,Marianne
+61,5,Domitilla ,Domitilla 
+61,6,Henk,Henk
+61,7,Fred,Fred
+61,8,Jan,Jan
+61,9,Amélie,Amélie
+61,10,Tom,Tom
+61,11,Sancho,Sancho
+61,12,Olga,Olga
+61,13,Vittorio,Vittorio
+61,14,Dolly,Dolly
+61,15,Emma,Emma
+62,1,Ik,Ik
+62,2,Gorrez,Gorrez
+62,3,Mijn vader,Mijn vader
+62,3,Mijn vader,mijn vader
+62,4,Bea,Bea
+62,5,Paps,Paps
+62,6,Mac,Mac
+62,7,Karl,Karl
+62,8,Kosterman,Kosterman
+62,9,Albert,Albert
+62,10,Arthur,Arthur
+62,11,Clara,Clara
+62,12,Mijn moeder,Mijn moeder
+62,12,Mijn moeder,mijn moeder
+63,1,Simon,Simon
+63,2,Henny,Henny
+63,3,Klaas,Klaas
+63,4,Job,Job
+63,5,Elize,Elize
+63,6,Theun,Theun
+63,7,Maja,Maja
+63,8,Ben,Ben
+63,9,David,David
+63,10,André,André
+63,11,Mare,Mare
+63,12,Jan,Jan
+63,13,Wijnand,Wijnand
+63,14,Diana,Diana
+63,15,Marie-Louise,Marie-Louise
+63,16,Philip,Philip
+63,17,Hilda,Hilda
+63,18,Marijke,Marijke
+63,19,Ineke,Ineke
+64,1,heer Aalbersberg,heer Aalbersberg
+64,1,heer Aalbersberg,Heer Aalbersberg
+64,2,mevrouw Aalbersberg,mevrouw Aalbersberg
+64,2,mevrouw Aalbersberg,Mevrouw Aalbersberg
+64,3,Frieda,Frieda
+64,3,Frieda,juffrouw Durant
+64,3,Frieda,Juffrouw Durant
+64,4,Annie,Annie
+64,5,Jacqueline,Jacqueline
+64,6,Gerard,Gerard
+64,7,Theo,Theo
+64,8,Johan,Johan
+64,9,Henry,Henry
+64,10,Mientje,Mientje
+64,11,Thea,Thea
+64,12,Else,Else
+64,13,Trix,Trix
+64,14,Van Doorne,Van Doorne
+64,15,Willy,Willy
+64,16,Leonard,Leonard
+65,1,Johan,Johan
+65,1,Johan,Johan Rutgers
+65,1,Johan,Rutgers
+65,1,Johan,Jo
+65,2,Jeanette,Jeanette
+65,3,Victor,Victor
+65,4,Jaap,Jaap
+65,5,Sophie,Sophie
+65,6,Ton,Ton
+65,7,mevrouw Becking,mevrouw Becking
+65,7,mevrouw Becking,hospita
+65,7,mevrouw Becking,Jodin
+65,7,mevrouw Becking,Mevrouw Becking
+65,7,mevrouw Becking,mevrouw Bedring
+65,7,mevrouw Becking,Mevrouw Bedring
+65,8,mevrouw Vink,mevrouw Vink
+65,8,mevrouw Vink,Mevrouw Vink
+65,9,Piet,Piet
+66,1,Dédé,Dédé
+66,2,Coederk,Coederk
+66,3,Wellings,Wellings
+66,4,Donia,Donia
+66,4,Donia,Sydonia
+66,5,Alfred,Alfred
+66,6,Bertrand,Bertrand
+66,7,Betty,Betty
+66,8,Mike,Mike
+66,9,Stefan,Stefan
+66,10,Nicole,Nicole
+66,11,Alexi,Alexi
+66,11,Alexi,Alec
+66,12,Gia,Gia
+66,13,Kay,Kay
+66,14,Lars,Lars
+66,15,Natasja,Natasja
+66,16,Will,Will
+66,17,Janet,Janet
+66,18,Georgette,Georgette
+67,1,Ik,Ik
+67,2,moeder,moeder
+67,2,moeder,Moeder
+67,3,vader,vader
+67,3,vader,Vader
+67,4,Lia,Lia
+67,5,Peter,Peter
+67,5,Peter,mijn broer
+67,5,Peter,Mijn broer
+67,6,de jongen,de jongen
+67,6,de jongen,De jongen
+67,7,Barend,Barend
+68,1,Erik,Erik
+68,2,Frits,Frits
+68,3,Henk,Henk
+68,4,Mia,Mia
+68,5,Ingrid,Ingrid
+68,6,Carla,Carla
+68,7,Pim ,Pim 
+68,8,Tom,Tom
+68,9,Anneke,Anneke
+68,10,Margot,Margot
+69,1,Lodewijk,Lodewijk
+69,2,Hanneke,Hanneke
+69,3,Mathilde,Mathilde
+69,4,Bianca,Bianca
+69,5,Nicolaas,Nicolaas
+69,6,Charlotte,Charlotte
+69,7,Jacques,Jacques
+69,8,Godelieve,Godelieve
+69,9,Jan,Jan
+69,10,Suzanne,Suzanne
+69,11,Marjorie,Marjorie
+69,12,Guido,Guido
+69,13,Esmeralda,Esmeralda
+69,14,Kolda,Kolda
+69,15,Roland,Roland
+69,16,Driek,Driek
+69,17,Jans,Jans
+69,18,gravin L'Orante,gravin L'Orante
+69,19,Pierre,Pierre
+69,20,Willem,Willem
+70,1,Trix,Trix
+70,2,Lex,Lex
+70,3,Sander,Sander
+70,4,Gerard,Gerard
+70,5,Marcel,Marcel
+70,6,Ria,Ria
+70,7,Nicolas,Nicolas
+70,8,Corrie,Corrie
+70,9,Appie,Appie
+70,10,Stella,Stella
+70,11,Emmie,Emmie
+71,1,Natalie,Natalie
+71,2,Deedee,Deedee
+71,3,Claude,Claude
+71,4,Albert,Albert
+71,5,Jeanne,Jeanne
+71,6,Antoine,Antoine
+71,7,Lotte,Lotte
+71,8,Giacomo,Giacomo
+71,9,Moeder,Moeder
+71,10,Taatje,Taatje
+71,11,Tilly,Tilly
+71,12,Felina,Felina
+72,1,Ik,Ik
+72,2,Aleide,Aleide
+72,3,Hoofdrechercheur,Hoofdrechercheur
+72,4,Jan,Jan
+72,5,Henk,Henk
+72,6,Arends,Arends
+72,7,Liesje,Liesje
+74,1,Ik,Ik
+74,2,Helen,Helen
+74,3,Bill,Bill
+74,4,Oswald,Oswald
+74,5,Dorris,Dorris
+74,6,Gustavsson,Gustavsson
+74,7,Bimah,Bimah
+74,8,Karti,Karti
+74,9,Rai,Rai
+74,10,Susan,Susan
+74,11,Njomanraka,Njomanraka
+74,12,Tmon,Tmon
+74,13,Sikkema,Sikkema
+74,14,Naga,Naga
+74,15,Bagoes,Bagoes
+74,16,Mijanta,Mijanta
+74,17,Poetoe,Poetoe
+74,18,Marya,Marya
+74,19,Betty,Betty
+75,1,Ik,Ik
+75,2,Jeannette,Jeannette
+75,3,Paap,Paap
+75,4,Inge,Inge
+75,5,Abel,Abel
+75,6,Van Tijn,Van Tijn
+75,7,Pronk,Pronk
+75,8,Steker,Steker
+75,9,Marga,Marga
+75,10,Jacobs,Jacobs
+75,11,Toos,Toos
+75,12,Siem,Siem
+75,13,Ali,Ali
+75,14,Victor,Victor
+75,15,Jopie,Jopie
+75,16,Ernst ,Ernst 
+75,17,Bram,Bram
+75,18,Kees,Kees
+75,18,Kees,Beest
+75,19,Gijs,Gijs
+75,20,Adèle,Adèle
+75,21,Ansje,Ansje
+75,22,Arnold,Arnold
+75,23,Henk,Henk
+76,1,Paul,Paul
+76,2,Rufus,Rufus
+76,3,Katinka,Katinka
+76,4,Ellen,Ellen
+76,5,Michaël,Michaël
+76,6,Ingrid,Ingrid
+76,7,Fernando,Fernando
+76,8,Gravin,Gravin
+76,9,Jeanne,Jeanne
+77,1,Jules Roelands,Jules
+77,2,Liesbeth,Liesbeth
+77,3,Margot,Margot
+77,4,Ilse,Ilse
+77,5,Evert,Evert
+77,6,mevrouw Fleischer,mevrouw Fleischer
+77,7,Paul,Paul
+77,8,Herman Roelands,Roelands
+78,1,Dorothé,Dorothé
+78,2,Wim,Wim
+78,3,Saartje,Saartje
+78,4,Evelyn,Evelyn
+78,5,Nico,Nico
+78,6,Nelleke,Nelleke
+78,7,Charles,Charles
+78,8,Ans,Ans
+78,9,Sia,Sia
+78,10,Flip,Flip
+78,11,Rob,Rob
+78,12,Niek,Niek
+78,13,Eimert,Eimert
+78,14,Grootvader,Grootvader
+78,15,Suzanna,Suzanna
+78,16,Moeder,Moeder
+78,17,Lex,Lex
+78,18,Gerard,Gerard
+78,19,Dauwe,Dauwe
+78,20,Ab,Ab
+78,21,Anton,Anton
+79,1,Hein,Hein
+79,2,Kes,Kes
+79,3,Henri Lutters,Henri Lutters 
+79,3,Henri Lutters,Henri
+79,3,Henri Lutters,Lutters
+79,4,Dries,Dries
+79,5,Ans,Ans
+79,6,Siti,Siti
+79,7,Koen,Koen
+79,8,Kees III,Kees III
+79,9,Kees,Kees
+79,10,Hans,Hans
+79,11,Mientje,Mientje
+79,12,Loes,Loes
+79,13,Dries,Dries
+79,14,Turqué,Turqué
+79,15,Kees II,Kees II
+79,16,Jo,Jo
+79,17,Vrijst,Vrijst
+79,18,Abraham,Abraham
+80,1,Kai,Kai
+80,2,Maria,Maria
+80,3,Joans,Joans
+80,4,Jiménez,Jiménez
+80,5,Felicia,Felicia
+80,6,Pedro,Pedro
+80,7,Gerrit,Gerrit
+80,8,Mies,Mies
+80,9,Maria-Teresa,Maria-Teresa
+80,10,Janchi,Janchi
+81,1,Akkie,Akkie
+81,2,Heerco,Heerco
+81,3,Paul,Paul
+81,4,Diederick,Diederick
+81,5,Everhard,Everhard
+81,6,Nienke,Nienke
+81,7,van Harpenaar,van Harpenaar
+81,8,Dohle,Dohle
+81,9,Beppe,Beppe
+81,10,Douwe,Douwe
+81,11,Carla,Carla
+81,12,Yerke,Yerke
+81,13,Gonnie,Gonnie
+81,14,Annetje,Annetje
+81,15,Sharon,Sharon
+81,16,Jelle,Jelle
+81,17,Carol,Carol
+81,18,Evie,Evie
+81,19,Sjakie,Sjakie
+82,1,Bert Blokland,Bert Blokland
+82,1,Bert Blokland,Bert
+82,2,Katrien,Katrien
+82,3,Jaap,Jaap
+82,4,Andries Aantveld,Dries
+82,4,Andries Aantveld,Andries
+82,4,Andries Aantveld,Dries Aantveld
+82,5,Hanna,Hanna
+82,6,Josine,Josine
+82,7,Gezina,Gezina
+82,8,Herbert,Herbert
+82,9,Geerten,Geerten
+82,10,Willy,Willy
+82,11,Anna,Anna
+82,12,Toos,Toos
+82,13,Volker,Volker
+82,14,Gerritsen,Gerritsen
+82,15,Tonia,Tonia
+82,16,Moeder,Moeder
+82,17,Joan,Joan
+82,18,Willems,Willems
+82,19,Guus,Guus
+83,1,Herman Vermeer,Herman Vermeer
+83,1,Herman Vermeer,Herman
+83,1,Herman Vermeer,Vermeer
+83,1,Herman Vermeer,Ik
+83,2,Nora,Nora
+83,3,Johanna,Johanna
+83,4,Tonny,Tonny
+83,5,Ange,Ange
+83,6,Hein,Hein
+83,7,Lies,Lies
+83,8,Berens,Berens
+83,9,Jan,Jan
+83,10,Van Dijk,Van Dijk
+83,11,Ina,Ina
+83,12,Alie,Alie
+83,13,Garenkamp,Garenkamp
+83,14,Dora,Dora
+83,15,Maters,Maters
+83,16,Willems,Willems
+83,17,Paps,Paps
+83,18,Truus,Truus
+83,19,Sprange,Sprange
+84,1,Ik,Ik
+84,2,André,André
+84,3,Cyril,Cyril
+84,4,Clara,Clara
+84,5,North,North
+84,6,Pepe,Pepe
+84,7,Antonio,Antonio
+84,8,Domingo,Domingo
+84,9,Eulalia,Eulalia
+84,10,Schramm,Schramm
+84,11,Cameron,Cameron
+84,12,Vicente,Vicente
+84,13,Charon,Charon
+84,14,Carla,Carla
+84,15,Pedro,Pedro
+85,1,Gert,Gert
+85,2,Gijs,Gijs
+85,3,Sientje,Sientje
+85,4,Clara,Clara
+85,5,Katy,Katy
+85,6,Cees,Cees
+85,7,Gerrit,Gerrit
+85,8,Adriaan,Adriaan
+85,9,Anna,Anna
+85,10,Zélie,Zélie
+85,10,Zélie,Zéhe
+85,11,Cora,Cora
+85,12,Karei,Karei
+85,13,Hanna,Hanna
+85,14,Sien,Sien
+86,1,Ik,Ik
+86,2,Wimie,Wimie
+86,3,R.,R.
+86,4,Lizzy,Lizzy
+86,5,W.,W.
+86,6,G.,G.
+86,7,F.,F.
+86,8,G. S.,G. S.
+86,9,N.,N.
+86,10,MacDiarmid,MacDiarmid
+86,11,Trocchi,Trocchi
+86,12,Wilson,Wilson
+86,13,Q.,Q.
+86,14,Angus Wilson,Angus Wilson
+86,15,Henry Miller,Henry Miller
+86,16,Singh,Singh
+86,17,A.,A.
+86,18,Stanley,Stanley
+86,19,Ivy,Ivy
+87,1,Siem,Siem
+87,2,Karei,Karei
+87,3,Thea,Thea
+87,4,Theo,Theo
+87,5,Nelleke,Nelleke 
+87,5,Nelleke,Nel
+87,6,Fien,Fien
+87,7,Jaap,Jaap
+87,8,Jansen,Jansen
+87,9,Opa,Opa
+87,10,Moeder,Moeder
+87,11,Selma,Selma
+87,12,Bolman,Bolman
+87,13,Keerman,Keerman
+87,14,Verweegen,Verweegen
+87,15,Bart,Bart
+88,1,Maria,Maria
+88,2,Juliette,Juliette
+88,3,Pieter,Pieter
+88,4,Marianne,Marianne
+88,5,Marcel,Marcel
+88,6,Adèle,Adèle
+88,7,Albert,Albert
+88,8,Fernand,Fernand
+88,9,Margriet,Margriet
+88,10,Jacques,Jacques
+88,11,Moeder,Meetje
+88,11,Moeder,Moeder
+88,12,Ernestine,Ernestine
+88,13,Tonia,Tonia
+88,14,Leontine,Leontine
+88,15,Bertrand,Bertrand
+89,1,Alfred Vogel,Alfred Vogel
+89,1,Alfred Vogel,Vogel
+89,1,Alfred Vogel,Alfred
+89,2,Meier,Meier
+89,3,Jorissen,Jorissen
+89,4,Erna Rydon,Erna Rydon
+89,4,Erna Rydon,Erna
+89,4,Erna Rydon,Rydon
+89,4,Erna Rydon,Norma
+89,5,Van der Kloot,Van der Kloot
+89,6,Betty,Betty
+89,7,Nettie,Nettie
+89,8,Mc Carr,Mc Carr
+89,9,Alons,Alons
+89,10,Herman,Herman
+89,11,Verlinden,Verlinden
+89,12,Alfons,Alfons
+90,1,Ik,Ik
+90,2,Bill,Bill
+90,3,Jim,Jim
+90,4,Jack,Jack
+90,5,John,John
+90,6,Jane,Jane
+90,7,Noorman,Noorman
+90,8,Sheep,Sheep
+90,9,Mister Smith,Mister Smith
+90,10,Henoch,Henoch
+90,11,Mary,Mary
+90,12,Berenice,Berenice
+91,1,Jasper,Jasper
+91,2,Henri,Henri
+91,3,Karei,Karei
+91,4,Violet,Violet
+91,5,Mary,Mary
+91,6,Charlie,Charlie
+91,7,Juanito,Juanito
+91,8,Erika,Erika
+91,9,Nick,Nick
+91,10,Hannibal,Hannibal
+91,11,Bob,Bob
+91,12,Sylvia,Sylvia
+91,13,Geert,Geert
+91,14,Carlos,Carlos
+91,15,Henk,Henk
+91,16,Ingemar,Ingemar
+91,17,Vicente,Vicente
+91,18,Dick,Dick
+91,19,Ibizenco,Ibizenco
+91,20,Ole,Ole
+91,21,Kees,Kees
+91,22,Domingo,Domingo
+91,23,Pierre,Pierre
+91,24,Hans,Hans
+91,25,Heinz,Heinz
+91,26,Jim,Jim
+92,1,Ik,Ik
+92,2,Hein,Hein
+92,3,Pieter,Pieter
+92,4,Paula,Paula
+92,5,Noor,Noor
+92,6,Miller,Miller
+92,7,Ewald,Ewald
+92,8,Dean,Dean
+92,9,Jimmy,Jimmy
+92,10,Lou,Lou
+92,11,Willem,Willem
+92,12,Joyce,Joyce
+92,13,Karel,Karel
+93,1,Ik,Ik
+93,2,Bart,Bart
+93,3,Edzard,Edzard
+93,4,Jutta,Jutta
+93,5,Tip,Tip
+93,6,Harry Kiri,Harry Kiri
+93,6,Harry Kiri,Harry
+93,7,Carien,Carien
+93,8,Rob,Rob
+93,9,Bert,Bert
+93,10,Marie-Louise,Marie-Louise
+93,11,Lidia,Lidia
+94,1,Levano,Levano
+94,2,Gideon Levano,Gideon Levano
+94,2,Gideon Levano,Gideon
+94,3,Joab da Fonseca,Joab da Fonseca
+94,3,Joab da Fonseca,Joab
+94,4,Reina,Reina
+94,5,Channah,Channah
+94,6,Sara van Colmar,Sara van Colmar
+94,6,Sara van Colmar,van Colmar
+94,6,Sara van Colmar,Sara
+94,7,Thea,Thea
+94,8,Alphonse de Villeneuve,Alphonse de Villeneuve
+94,8,Alphonse de Villeneuve,Alphonse
+94,9,Inge,Inge
+94,10,Kees,Kees
+94,11,Jopie,Jopie
+94,12,Carolien,Carolien
+94,13,Adam Levano,Adam Levano
+94,13,Adam Levano,Levano
+94,13,Adam Levano,Adam 
+94,14,Enny Karsten,Enny 
+94,14,Enny Karsten,Karsten
+94,14,Enny Karsten,Enny Karsten
+94,15,Menachem,Menachem
+94,16,Anna,Anna
+94,17,Martha,Martha
+94,18,Elsje,Elsje
+94,19,David,David
+94,20,Judith,Judith
+95,1,Hella,Hella
+95,2,Filip,Filip
+95,3,Patrick,Patrick
+95,4,Harry,Harry
+95,5,Claudine,Claudine
+95,6,Marthe,Marthe
+95,7,Herman,Herman
+95,8,Koenraad,Koenraad
+95,9,Herwig,Herwig
+95,10,Janinka,Janinka
+95,11,Bassens,Bassens
+95,12,Frieda,Frieda
+95,13,Pablo,Pablo
+95,14,Harriet,Harriet
+95,15,Tamayo,Tamayo
+95,16,Elza,Elza
+95,17,Deirdre,Deirdre
+96,1,Emmy,Emmy
+96,2,Daniël,Daniël
+96,3,Sonja,Sonja
+96,4,Ans,Ans
+96,5,Samuel,Samuel
+96,6,Basje,Basje
+96,7,Rita,Rita
+96,8,Gerard,Gerard
+96,9,Moeder,Moeder
+96,10,Hans,Hans
+96,11,Mammie,Mammie
+96,12,Wardle,Wardle
+96,13,Bean,Bean
+96,14,Vader,Vader
+97,1,Piet Aukes,Piet Aukes
+97,1,Piet Aukes,Piet
+97,1,Piet Aukes,Aukes
+97,2,Agaath,Agaath
+97,3,Merks,Merks
+97,4,Willy,Willy
+97,5,Lippens,Lippens
+97,6,Fien,Fien
+97,7,Tjitske,Tjitske
+97,8,Jenny,Jenny
+97,9,Van der Velden,Van der Velden
+97,10,Kaper,Kaper
+97,11,Hofstee,Hofstee
+97,12,Oltmans,Oltmans
+97,13,Roos,Roos
+97,14,Thea,Thea
+97,15,Kwint,Kwint
+97,16,Andries,Andries
+97,17,Jacob,Jacob
+97,18,Soeng,Soeng
+97,19,Juffrouw Roos,Juffrouw Roos
+97,20,Blooys,Blooys
+98,1,Koos,Koos
+98,2,Dirk,Dirk
+98,3,Berrie,Berrie
+98,4,Coby,Coby
+98,5,Mia,Mia
+98,6,Jet,Jet
+98,7,Kees,Kees
+98,8,Molly,Molly
+98,9,Kouber,Kouber
+98,10,Lida,Lida
+98,11,Jantje,Jantje
+98,12,Toos,Toos
+98,13,Jaap,Jaap
+98,13,Jaap,Japie
+98,14,Pelsen,Pelsen
+98,15,Gerrels,Gerrels
+98,16,Wim,Wim
+98,17,Dina,Dina
+99,1,Joss,Joss
+99,2,Bartels,Bartels
+99,3,André,André
+99,4,Kira,Kira
+99,5,Menander,Menander
+99,6,Jacynth,Jacynth
+99,7,Hendriks,Hendriks
+99,8,Duhr,Duhr
+99,9,Jackson,Jackson
+99,10,Walther Vetter,Walther Vetter
+99,10,Walther Vetter,Walt
+99,10,Walther Vetter,Vetter
+99,11,Herman,Herman
+99,12,Andreus,Andreus
+99,13,Jan van de Brink,Jan van de Brink
+99,14,Marcel,Marcel
+99,15,Buisman,Buisman
+99,16,Paul,Paul
+99,17,Anna,Anna
+99,18,Frieda,Frieda
+99,19,De Vries,De Vries
+99,20,Pieter Boersma,Pieter Boersma
+99,21,Fenna,Fenna
+100,1,Ik,Ik
+100,2,Mark,Mark
+100,2,Mark,Marcos
+100,2,Mark,M. 
+100,3,Nora,Nora
+100,4,Veronica,Veronica
+100,4,Veronica,V. 
+100,5,Pieter,Pieter
+100,6,Ro,Ro
+100,7,Mon,Mon
+100,8,Catalina,Catalina
+100,9,Fernando Cardona Castellón,Fernando Cardona Castellón
+100,10,Sjir,Sjir
+100,11,Rosario,Rosario
+100,12,Luis,Luis
+100,13,P.,P.
+100,14,Jerôme,Jerôme
+100,15,Ludwig Zweipunkt,Ludwig Zweipunkt
+101,1,Lazarus,Lazarus
+101,2,Tychon,Tychon
+101,3,God,God
+101,4,Marius,Marius
+101,5,Mirjam,Mirjam
+101,6,Martha,Martha
+101,7,Chusas,Chusas
+101,8,Melchizedek,Melchizedek
+101,9,Herodes,Herodes
+101,10,Nathaniël,Nathaniël
+101,11,Mozes,Mozes
+101,12,Abraham,Abraham
+101,13,David,David
+101,14,Simon,Simon
+101,15,Pilatus,Pilatus
+101,16,Antonia,Antonia
+101,17,Jacob,Jacob
+101,18,Jochanan,Jochanan
+101,19,Daniël,Daniël
+101,20,Levi,Levi
+101,21,Elia,Elia
+101,22,Venus,Venus
+101,23,Simeon,Simeon
+102,1,Wijnand Gullinx,Wijnand Gulinx
+102,1,Wijnand Gullinx,Wijnand
+102,2,Christiaan,Christiaan
+102,3,Henri Abton,Henri Abton
+102,3,Henri Abton,Abton
+102,4,Ulyssa,Ulyssa
+102,5,Hans Knauerhaas,Hans Knauerhaas
+102,5,Hans Knauerhaas,Knauerhaas
+102,6,Yetze,Yetze
+102,7,Putman,Putman
+102,8,Mère,Mère
+102,9,Joop,Joop
+102,10,Gosses,Gosses
+102,11,Ludovicus,Ludovicus
+102,12,Petrus,Petrus
+102,13,Henri,Henri
+102,14,Tjalling,Tjalling
+102,15,Voets,Voets
+102,16,Pilcrom,Pilcrom
+103,1,Jan Cremer,Jan Cremer
+103,1,Jan Cremer,Jan
+103,2,Brigitte,Brigitte
+103,3,Tibbe,Tibbe
+103,4,Henri,Henri
+103,5,Annebel,Annebel
+103,6,Barry,Barry
+103,7,Corrita,Corrita
+103,8,Lex,Lex
+103,9,Betty,Betty
+103,10,R.,R.
+103,11,Nora,Nora
+103,12,Rick,Rick
+103,13,Helen,Helen
+103,14,Tom,Tom
+103,15,Geert,Geert
+103,16,Wratje,Wratje
+103,17,Donner,Donner
+103,18,Betsie,Betsie
+103,19,Klaus,Klaus
+103,20,Madame,Madame
+103,21,Andres,Andres
+104,1,Folkert,Folkert
+104,2,Lieveke,Lieveke
+104,3,Dominique,Dominique
+104,4,Jean-Loup,Jean-Loup
+104,5,Titine,Titine
+104,6,Louis,Louis
+104,7,Louise,Louise
+104,8,Maman Varèze,Maman Varèze
+104,9,Bernard,Bernard
+104,10,Christine,Christine
+104,11,Papa Varèze,Papa Varèze
+104,12,Pasquale,Pasquale
+105,1,Ik,Ik
+105,2,Emma,Emma
+105,3,Mart,Mart
+105,4,John,John
+105,5,Fekkes,Fekkes
+105,6,Erwin,Erwin
+106,1,Charles,Charles
+106,2,Roosje,Roosje
+106,3,Toetie,Toetie
+106,4,Madelon,Madelon
+106,5,Cato,Cato
+106,6,Alida,Alida
+106,7,Antoine,Antoine
+106,8,Itih,Itih
+106,9,Jeanne,Jeanne
+106,10,Jut,Jut
+106,11,Dolly,Dolly
+106,12,Edmond,Edmond
+106,13,Jane,Jane
+106,14,Nadine,Nadine
+106,15,George,George
+106,16,Johny,Johny
+106,17,Nina,Nina
+106,18,Teresa,Teresa
+106,19,Tjrot,Tjrot
+107,1,Ik,Ik
+107,2,Florrie,Florrie
+107,3,Jackie,Jackie
+107,4,Carlotta,Carlotta
+107,5,Thérèse,Thérèse
+107,6,Armand,Armand
+107,7,Georges,Georges
+107,8,Tonino,Tonino
+107,9,Elena,Elena
+107,10,Jeannette,Jeannette
+107,11,Choong,Choong
+107,12,André,André
+107,13,Jennifer,Jennifer
+107,14,René,René
+107,15,Gino,Gino
+107,16,Teresa,Teresa
+107,17,Marquet,Marquet
+107,18,Giulio,Giulio
+107,19,Ted,Ted
+108,1,Jezus Christus,Jezus Christus
+108,1,Jezus Christus,Christus
+108,1,Jezus Christus,Jezus Christus
+108,2,God,God
+108,3,Pythagoras,Pythagoras
+108,4,Adam,Adam
+108,5,Michelangelo,Michelangelo
+108,6,Mozes,Mozes
+108,7,Spencer,Spencer
+108,8,Maria,Maria
+108,9,Maria Magdalena,Maria Magdalena
+108,10,Origenes,Origenes
+108,11,Vader,Vader
+109,1,Ik,Ik
+109,2,Mary,Mary
+109,3,Noël Luciani,Noël Luciani
+109,3,Noël Luciani,Noël
+109,3,Noël Luciani,Luciani
+109,4,Michelle,Michelle
+109,5,Betty,Betty
+109,6,Nicolai,Nicolai
+109,7,Tao,Tao
+109,8,François le Noir,François le Noir
+109,8,François le Noir,François
+109,8,François le Noir,Frangois
+109,9,Don Alfonso,Don Alfonso
+109,10,Moretti,Moretti
+109,11,Pasqualina,Pasqualina
+109,12,Odysseus,Odysseus
+110,1,Paul,Paul
+110,2,Jacqueline,Jacqueline
+110,3,Brave,Brave
+110,4,De hond,De hond
+110,4,De hond,de hond
+111,1,Benjamin,Benjamin
+111,2,Thotmes,Thotmes
+111,3,Jozef,Jozef
+111,4,Potifar,Potifar
+111,5,Horemheb,Horemheb
+111,6,Imhotep,Imhotep
+111,7,Jacob,Jacob
+111,8,Ichnaton,Ichnaton
+111,9,Ruben,Ruben
+111,10,Tjenuna,Tjenuna
+111,11,Tnahsit,Tnahsit
+111,12,Rachel,Rachel
+111,13,Tjenuna,Tjenuna
+111,14,Lea,Lea
+111,15,Seneferu,Seneferu
+111,16,Zenonfi,Zenonfi
+112,1,Johnny Lindsay,Johnny Lindsay
+112,1,Johnny Lindsay,Johnny
+112,1,Johnny Lindsay,Lindsay
+112,2,Adams,Adams
+112,3,Jerry,Jerry
+112,4,Joe Benson,Joe Benson
+112,4,Joe Benson,Joe
+112,4,Joe Benson,Benson
+112,5,Jim Sanders,Jim Sanders
+112,5,Jim Sanders,Sanders
+112,6,Joe Kingsley,Joe Kingsley
+112,6,Joe Kingsley,Kingsley
+112,6,Joe Kingsley,Big Joe
+112,7,Betty Adams,Betty Adams
+112,7,Betty Adams,Betty
+112,8,Jack Legree,Jack Legree
+112,8,Jack Legree,Legree
+112,9,Brooks,Brooks
+112,10,Steve Kelly,Steve Kelly
+112,10,Steve Kelly,Kelly
+112,11,Jake Bindle,Jake Bindle
+112,11,Jake Bindle,Jake
+112,11,Jake Bindle,Bindle
+112,11,Jake Bindle,Jak' Bindle
+112,11,Jake Bindle,Jak'
+112,12,Dave Mac-Millan,Dave Mac-Millan
+112,12,Dave Mac-Millan,Dave
+112,12,Dave Mac-Millan,Mac-Millan
+112,13,Charley Fuller,Charley Fuller
+112,13,Charley Fuller,Charley
+112,13,Charley Fuller,Fuller
+112,14,Tony,Tony
+113,1,Ik,Ik
+113,2,Paul,Paul
+113,3,Anna,Anna
+113,3,Anna,Annetje
+113,4,Henk,Henk
+113,5,Mattie,Mattie
+113,6,Helma,Helma
+113,7,Loes,Loes
+113,8,Fred,Fred
+113,9,Klaus,Klaus
+113,10,Roger,Roger
+113,11,Dora,Dora
+113,11,Dora,Doortje
+113,12,Anastasia,Anastasia
+113,13,Deenik,Deenik
+113,14,Françoise,Françoise
+113,15,Van Weesp,Van Weesp
+113,16,Jannie,Jannie
+113,17,Amandus,Amandus
+114,1,Minnie,Minnie
+114,2,Jakob,Jakob
+114,3,Lokien,Lokien
+114,4,Klaske,Klaske
+114,5,Abe,Abe
+114,6,Herta,Herta
+114,7,Mirjam,Mirjam
+114,8,Bender,Bender
+114,9,Kleine Barend,Kleine Barend
+114,10,Willy,Willy
+114,11,Hesje,Hesje
+114,12,Hoppecke,Hoppecke
+114,13,Jonas,Jonas
+114,14,Okke Rombout,Okke Rombout
+114,15,Klooster,Klooster
+115,1,Willem,Willem
+115,2,Patricia Wildert,Patricia Wildert
+115,2,Patricia Wildert,Patricia
+115,2,Patricia Wildert,Pat
+115,2,Patricia Wildert,Wildert
+115,3,Roel,Roel
+115,4,Yvette,Yvette
+115,5,Helen,Helen
+115,6,Saskia,Saskia
+115,7,Johnny,Johnny
+115,8,Felix,Felix
+115,9,Wim,Wim
+115,9,Wim,Wimpie
+115,10,Thecla,Thecla
+115,11,Tony,Tony
+115,12,Eva,Eva
+115,13,Lydia,Lydia
+115,14,Johan,Johan
+115,15,Micheline,Micheline
+115,16,Nicole,Nicole
+115,17,Jan,Jan
+115,18,Joe,Joe
+116,1,Ik,Ik
+116,2,Marie,Marie
+116,3,Valstar,Valstar
+116,3,Valstar,Jan
+116,4,Eunice van Zutphen,Eunice van Zutphen
+116,4,Eunice van Zutphen,Eunice
+116,5,Aaf,Aaf
+116,5,Aaf,Aafje
+116,6,Hendrik,Hendrik
+116,7,Eugénie,Eugénie
+116,8,Henriëtte,Henriëtte
+116,9,Barend,Barend
+116,10,Nelly,Nelly
+116,11,Gryvo,Gryvo
+116,12,Cees,Cees
+116,13,Jan,Jan
+116,14,Madeleine,Madeleine
+116,15,Jacques,Jacques
+116,16,Keetje,Keetje
+117,1,Hugo,Hugo
+117,2,Stans,Stans
+117,3,Ineke,Ineke
+117,4,Freek,Freek
+117,5,Bas,Bas
+117,6,Betty,Betty
+117,7,Emmy,Emmy
+117,8,David,David
+117,9,Rico,Rico
+117,10,Marjan,Marjan
+117,11,Theo,Theo
+117,12,Agaath,Agaath
+117,13,Liesbeth,Liesbeth
+117,14,Arnold,Arnold
+117,15,Joke,Joke
+117,16,Reina Doorschodt,Reina Doorschodt
+117,16,Reina Doorschodt,Doorschodt
+117,17,Colijn,Colijn
+117,18,Willem,Willem
+117,19,Leo,Leo
+117,20,Lien,Lien
+117,21,Ilse,Ilse
+117,22,Hein,Hein
+117,23,Bartha,Bartha
+117,24,Marie,Marie
+118,1,Fie,Fie
+118,2,Wim,Wim
+118,3,Niente,Niente
+118,4,Bees,Bees
+118,5,Ans,Ans
+118,6,Bas,Bas
+119,1,Ik,Ik
+119,2,Steven,Steven
+119,3,Hans,Hans
+119,4,Bobbie,Bobbie
+119,5,Willem,Willem
+119,6,Karel,Karei
+119,6,Karel,Karel
+119,7,Ellen,Ellen
+119,8,Nero,Nero
+119,9,Gonnie,Gonnie
+119,10,Jimmy,Jimmy
+119,11,Vibia,Vibia
+119,12,Joséfine,Joséfine
+119,13,Judith,Judith
+119,14,Bennie,Bennie
+119,15,S.,S.
+120,1,Hildevoort,Hildevoort
+120,2,Drakestein,Drakestein
+120,3,Kai,Kai
+120,4,Charlotte,Charlotte
+120,5,Minderbragt,Minderbragt
+120,6,De Vije,De Vije
+120,6,De Vije,Ukkie
+120,7,Pop,Pop
+121,1,Vorbrot,Vorbrot
+121,2,Resi,Resi
+121,3,Schmitt,Schmitt
+121,4,Stefanie,Stefanie
+121,5,Therese,Therese
+121,6,Agathe,Agathe
+121,7,Anna Pech,Frau Pech
+121,7,Anna Pech,Anna Pech
+121,8,Kurt Krassnitzer,Kurt Krassnitzer
+121,8,Kurt Krassnitzer,Kurt
+121,8,Kurt Krassnitzer,Krassnitzer
+121,9,Peter,Peter
+121,10,Strakosch,Strakosch
+121,11,Landshoff,Landshoff
+121,12,Roberto,Roberto
+121,13,Frau Strakosch,Frau Strakosch
+121,14,Frau Krassnitzer,Frau Krassnitzer
+121,15,Karl,Karl
+121,16,Frau Faschauner,Frau Faschauner
+122,1,Alfred,Alfred
+122,2,Michel-Marco,Michel-Marco
+122,2,Michel-Marco,Marco-Michel
+122,2,Michel-Marco,Michel
+122,2,Michel-Marco,Marco
+122,3,An,An
+122,3,An,A n
+122,4,Dolf,Dolf
+122,5,Jan Schaap,Jan Schaap
+122,5,Jan Schaap,Jan
+122,5,Jan Schaap,Schaap
+122,6,Mien,Mien
+122,7,Sergio,Sergio
+122,8,Mario,Mario
+122,9,Joe,Joe
+122,10,Maria,Maria
+122,11,Tourasse,Tourasse
+123,1,Michiel,Michiel
+123,2,Jan Tulp,Jan Tulp
+123,2,Jan Tulp,Jan
+123,2,Jan Tulp,Tulp
+123,3,Johan,Johan
+123,4,Alie,Alie
+123,5,Maja,Maja
+123,6,Merel,Merel
+123,7,Soutenbakker,Soutenbakker
+123,8,Wim Winter,Wim Winter
+123,8,Wim Winter,Wim
+123,9,Gerie,Gerie
+123,10,Liza,Liza
+123,11,meester van der Pol,meester van der Pol
+123,12,Jaap Steen,Jaap Steen
+123,12,Jaap Steen,Jaap
+123,13,Dulieu,Dulieu
+123,14,Christine,Christine
+123,15,Verkerk,Verkerk
+124,1,Andries van Rode,Andries van Rode
+124,1,Andries van Rode,Andries
+124,2,Willy,Willy
+124,3,Ida Ina,Ida Ina
+124,4,Pietertje (Mireille) Terlaak,Pietertje Terlaak 
+124,4,Pietertje (Mireille) Terlaak,Mireille Terlaak
+124,4,Pietertje (Mireille) Terlaak,Mireille
+124,4,Pietertje (Mireille) Terlaak,Pietertje
+124,5,Junior,Junior
+124,6,Freddy Golberton,Freddy Golberton
+124,6,Freddy Golberton,Freddy
+124,6,Freddy Golberton,Golberton
+124,7,Pinto,Pinto
+124,8,Senior,Senior
+124,9,Josine,Josine
+124,10,Jochem van Marion,Jochem van Marion
+124,10,Jochem van Marion,Jochem
+124,10,Jochem van Marion,van Marion
+124,11,Dobben,Dobben
+124,12,Elspeth,Elspeth
+124,13,Clara,Clara
+124,13,Clara,Claartje
+124,14,Arnold Sluis,Arnold Sluis
+124,14,Arnold Sluis,Arnold
+124,15,Ece,Ece
+125,1,Ans Bremer,Ans Bremer
+125,2,Kees,Kees
+125,3,Piet,Piet
+125,4,Aad,Aad
+125,5,Lex Dellaert,Lex Dellaert
+125,6,Frits,Frits
+125,7,Cor,Cor
+125,8,Merel,Merel
+125,9,Rinus,Rinus
+125,10,Harm,Harm
+125,11,Roos,Roos
+125,12,Lies,Lies
+125,13,Dirk,Dirk
+125,14,Carla,Carla
+125,15,Jaap,Jaap
+125,16,Karei,Karei
+125,17,Anna,Anna
+125,18,Fred,Fred
+125,19,Stans,Stans
+125,20,Emerentia,Emerentia
+126,1,Simone,Simone
+126,1,Simone,Arthur
+126,2,Kees,Kees
+126,3,Ingrid,Ingrid
+126,4,Rainer,Rainer
+126,4,Rainer,Rein
+126,5,Lena,Lena
+126,6,Carlo,Carlo
+126,7,Fenneke,Fenneke
+126,8,Kenneth,Kenneth
+126,9,Paolo,Paolo
+126,10,Baruch,Baruch
+126,11,Linda,Linda
+126,12,Petrus,Petrus
+126,13,Anne,Anne
+126,14,W.,W.
+126,15,Ika,Ika
+126,16,Annie,Annie
+126,17,Joke,Joke
+126,18,Berrie,Berrie
+128,1,Ik,Ik
+128,2,Mirjam,Mirjam
+128,3,Klara,Klara
+128,4,Roberto,Roberto
+128,5,Joyce,Joyce
+128,6,Jean,Jean
+128,7,Lucy,Lucy
+128,8,Philip,Philip
+128,9,Gerard,Gerard
+128,10,Gina,Gina
+128,11,Johann,Johann
+128,12,Rita,Rita
+128,13,Fred,Fred
+128,14,Truus,Truus
+128,15,Jantine,Jantine
+128,16,Peter,Peter
+128,17,Maria,Maria
+128,18,Hugo,Hugo
+128,19,Moes,Moes
+128,20,Angus,Angus
+128,21,Nondo,Nondo
+129,1,Matti,Matti
+129,2,Albert,Albert
+129,3,Johan,Johan
+129,4,Mark,Mark
+129,5,Elize,Elize
+129,6,Jaap,Jaap
+129,7,Wilkes,Wilkes
+129,8,George,George
+129,9,Ansje,Ansje
+129,10,Monica,Monica
+129,11,Jantje,Jantje
+129,12,Tony,Tony
+129,13,Egbert,Egbert
+129,14,Helena,Helena
+129,15,Kathie,Kathie
+129,16,Mathilde,Mathilde
+129,17,Peter,Peter
+129,18,Hans,Hans
+129,19,Onno,Onno
+129,20,Kevelkin,Kevelkin
+130,1,Han,Han
+130,2,Bertus,Bertus
+130,3,Harold,Harold
+130,4,Hilda,Hilda
+130,5,Billy,Billy
+130,6,Kennedy,Kennedy
+130,7,Elza,Elza
+130,8,Mabel,Mabel
+130,9,Kroutchov,Kroutchov
+130,10,Castro,Castro
+130,11,Eric,Eric
+130,12,Sidney,Sidney
+130,13,Clark,Clark
+130,14,Deborah,Deborah
+130,15,Carla,Carla
+130,16,Lydia,Lydia
+131,1,Frederik Schothorst,Frederik Schothorst
+131,1,Frederik Schothorst,Frederik
+131,1,Frederik Schothorst,Schothorst
+131,2,Catootje,Catootje
+131,3,Clement Helema,Clement Helema
+131,3,Clement Helema,Clement
+131,3,Clement Helema,Helema
+131,4,Albertus Schimmel,Albertus Schimmel
+131,4,Albertus Schimmel,Albertus
+131,4,Albertus Schimmel,Schimmel
+131,5,Van den Donck,Van den Donck
+131,6,Agaath,Agaath
+131,7,Alfons van Dussen,Fons van Dussen
+131,7,Alfons van Dussen,Fons
+131,7,Alfons van Dussen,Alfons van Dussen
+131,8,Willem van Oranje,Willem van Oranje
+131,9,Vermaelen,Vermaelen
+131,10,Sientje,Sientje
+131,11,Jurgen Frederiks,Jurgen Frederiks
+131,11,Jurgen Frederiks,Jurgen
+131,11,Jurgen Frederiks,Frederiks
+131,12,Charles Cammingha,Charles Cammingha
+131,12,Charles Cammingha,Cammingha
+131,13,Van Davelaer,Van Davelaer
+131,14,Lems,Lems
+131,15,Kobus,Kobus
+131,16,Bertha,Bertha
+131,17,Hannes,Hannes
+131,18,Catharina Cammingha-van den Donck,Catharina Cammingha-van den Donck
+131,18,Catharina Cammingha-van den Donck,Catharina
+131,18,Catharina Cammingha-van den Donck,Cammingha-
+131,19,Geurt van Dolderen,Geurt van Dolderen
+131,19,Geurt van Dolderen,Geurt
+132,1,Leo,Leo
+132,2,Rieneke,Rieneke
+132,3,Roger,Roger
+132,4,Koen,Koen
+132,5,Jolanda Lund,Jolanda Lund
+132,5,Jolanda Lund,Lund
+132,6,Josientje,Josientje
+132,7,Janneke,Janneke
+132,8,Atte Struweel,Atte Struweel
+132,8,Atte Struweel,Atte
+132,8,Atte Struweel,Struweel
+132,9,Truus,Truus
+132,10,Kees,Kees
+132,11,Jan,Jan
+132,12,Tom,Tom
+132,13,Mevrouw Stormerdam,Mevrouw Stormerdam
+132,14,Peter,Peter
+132,15,Nooike Stormerdam,Nooike Stormerdam
+132,15,Nooike Stormerdam,Nooike
+132,15,Nooike Stormerdam,Juffrouw Stormerdam
+132,16,Annèt Struweel,Annèt Struweel
+132,16,Annèt Struweel,Annèt
+132,16,Annèt Struweel,Juffrouw Struweel
+133,1,Ik,Ik
+133,2,Johan,Johan
+133,3,Jaap,Jaap
+133,4,Kees,Kees
+133,5,Martine,Martine
+133,6,Simone,Simone
+133,7,Odile,Odile
+133,8,Lucie,Lucie
+133,9,Johanna,Johanna
+133,10,Jules,Jules
+133,11,Nadine,Nadine
+133,12,Magda,Magda
+133,13,Arlette,Arlette
+133,14,Monique,Monique
+133,15,Madame Pruvost,Madame Pruvost
+133,15,Madame Pruvost,weduwe Pruvost
+133,16,Madame Huquet,Madame Huquet
+133,17,Felix,Felix
+133,18,Renard,Renard
+133,19,Alain,Alain
+133,20,Marlies,Marlies
+133,21,Raymonde,Raymonde
+133,22,Roland,Roland
+134,1,Leonard,Leonard
+134,2,Henri,Henri
+134,3,Maarten,Maarten
+134,4,Frits,Frits
+134,5,Laura,Laura
+134,6,Marja,Marja
+134,7,Henk,Henk
+134,8,Freek,Freek
+134,9,Jan,Jan
+134,10,Joost,Joost
+134,11,Herman,Herman
+134,12,Alfred,Alfred
+134,13,Luciano,Luciano
+135,1,Ivo,Ivo
+135,2,Van de Weert,Van de Weert
+135,2,Van de Weert,V a n de Weert
+135,3,Hartley,Hartley
+135,4,Henriëtte,Henriëtte
+136,1,Jaap Verdongen,Jaap Verdongen
+136,1,Jaap Verdongen,Jaap
+136,1,Jaap Verdongen,Meneer Verdongen
+136,2,Martien Verdongen,Martien Verdongen
+136,2,Martien Verdongen,Martien
+136,2,Martien Verdongen,Martientje Verdongen
+136,3,Japie,Japie
+136,4,Nol,Nol
+136,5,Nola,Nola
+136,6,Joke Verdongen,Joke Verdongen 
+136,6,Joke Verdongen,Joke
+136,6,Joke Verdongen,mevrouw Verdongen
+136,7,Ruurd,Ruurd
+136,8,Rienk,Rienk
+136,9,Ally,Ally
+136,9,Ally,A l l y
+136,10,Coba,Coba
+136,11,Anne-Mieke,Anne-Mieke
+136,12,Holthuysen,Holthuysen
+136,13,Jacob,Jacob
+136,14,Bertha,Bertha
+137,1,Van der Loeff,Van der Loeff
+137,2,Reinier,Reinier
+137,3,Igor,Igor
+137,4,Haya,Haya
+137,5,Otto,Otto
+137,6,Verkerk,Verkerk
+137,7,Paul,Paul
+137,8,Jan Hagel,Jan Hagel
+137,8,Jan Hagel,Jan
+137,9,Verkoeien,Verkoeien
+137,10,Beerman,Beerman
+137,11,Peters,Peters
+137,12,Van Dantzig,Van Dantzig
+137,13,Van Wayen,Van Wayen
+137,14,Frank,Frank
+137,15,Kees,Kees
+137,16,Kooljager,Kooljager
+138,1,Herman Willemse,Herman Willemse
+138,1,Herman Willemse,Herman
+138,1,Herman Willemse,Willemse
+138,2,Dora Terbraak,Dora Terbraak
+138,2,Dora Terbraak,Dora
+138,2,Dora Terbraak,Terbraak
+138,2,Dora Terbraak,Doortje
+138,3,Jacquelien,Jacquelien
+138,4,Bert,Bert
+138,5,Rolf,Rolfje
+138,5,Rolf,Rolfje
+138,6,Lena,Lena
+138,7,Krijn Duba,Krijn Duba
+138,7,Krijn Duba,Duba
+138,7,Krijn Duba,Krijn
+138,8,Annelies,Annelies
+138,9,Andries,Andries
+138,10,Jesse,Jesse
+139,1,David,David
+139,2,Ria,Ria
+139,3,Bram Terzake,Bram Terzake
+139,3,Bram Terzake,Bram
+139,3,Bram Terzake,Terzake
+139,4,juffrouw Francois,juffrouw Francois
+139,5,Truida,Truida
+140,1,Maurice Dhondt,Maurice Dhondt
+140,1,Maurice Dhondt,Maurice
+140,1,Maurice Dhondt,Dhondt
+140,2,Etienne,Etienne
+140,3,Marianne,Marianne
+140,3,Marianne,Mademoiselle
+140,3,Marianne,Mademoiselle Marianne
+140,4,André,André
+140,5,Piet,Piet
+140,6,Suzanne,Suzanne
+140,6,Suzanne,Suzannc
+140,6,Suzanne,Suzanne Deprez
+140,7,Huguette,Huguette
+140,8,Bonny,Bonny
+140,9,Darja,Darja
+140,10,Edmond,Edmond
+140,10,Edmond,Edmond Deprez
+140,10,Edmond,Deprez
+141,1,Sluyser,Sluyser
+141,2,Sally Noach,Sally Noach
+141,2,Sally Noach,Sally
+141,2,Sally Noach,Noach
+141,3,Johnny,Johnny
+141,4,Janus,Janus
+141,5,Paulus Potter,Paulus Potter
+141,6,Churchill,Churchill
+141,7,Gerbrandy,Gerbrandy
+141,8,Koningin Wilhelmina,Koningin Wilhelmina
+141,8,Koningin Wilhelmina,Hare Majesteit
+141,8,Koningin Wilhelmina,Koningin
+141,9,Rudolf Hess,Rudolf Hess
+141,9,Rudolf Hess,Hess
+141,10,Jan Schweyk,Jan Schweyk
+141,10,Jan Schweyk,Jan
+141,10,Jan Schweyk,Schweyk
+142,1,Wolters,Wolters
+142,2,Kramer,Kramer
+142,3,Vermeulen,Vermeulen
+142,4,Wouter Storm,Wouter Storm
+142,4,Wouter Storm,Wouter
+142,4,Wouter Storm,Storm
+142,5,Paul,Paul
+142,6,Van Maurik,Van Maurik
+142,7,Westerhof,Westerhof
+142,8,Van den Bergh,Van den Bergh
+142,9,Wigman,Wigman
+142,10,Bret,Bret
+142,11,Colman,Colman
+143,1,Staad,Staad
+143,2,Hermann Becker,Hermann Becker
+143,2,Hermann Becker,Hermann
+143,2,Hermann Becker,Becker
+143,3,Tan,Tan
+143,4,Elsa,Elsa
+143,5,Carmen,Carmen
+143,6,Sonya,Sonya
+143,7,Irmgard,Irmgard
+143,8,Maria Luisa,Maria Luisa
+143,9,Mina,Mina
+144,1,Mobsie,Mobsie
+144,1,Mobsie,Mobs
+144,1,Mobsie,Mobby
+144,2,Gustl,Gustl
+144,3,Egbert,Egbert
+144,4,Louis Gompers,Louis Gompers
+144,4,Louis Gompers,Louis
+144,4,Louis Gompers,Gompers
+144,5,Henri,Henri
+144,6,Handsome,Handsome
+144,7,Jos,Jos
+144,8,Franziskus,Franziskus
+144,9,Luitpold Agnello,Luitpold Agnello
+144,9,Luitpold Agnello,Luitpold
+144,9,Luitpold Agnello,Agnello
+144,10,Karla,Karla
+144,11,Witiko,Witiko
+144,12,Felix,Felix
+145,1,Carl,Carl
+145,2,Titia,Titia
+145,3,Ludwig,Ludwig
+145,4,Maxie,Maxie
+145,4,Maxie,Massimo
+145,5,Bacchus,Bacchus
+145,6,Mario,Mario
+145,7,Ad,Ad
+145,8,Pignatelli,Pignatelli
+145,9,Lalla,Lalla
+145,10,Elisabeth,Elisabeth
+145,11,Dorothy,Dorothy
+146,1,Geerte,Geerte
+146,2,Josua,Josua
+146,2,Josua,Josua Mocatta
+146,2,Josua,Mocatta
+146,3,Nehemia,Nehemia
+146,3,Nehemia,Nehemia bar Simeon
+146,3,Nehemia,bar Simeon
+146,4,Gabriël,Gabriël
+146,4,Gabriël,Gabriël Baëna
+146,4,Gabriël,Baëna
+146,5,Loys,Loys
+146,6,Jehoeda,Jehoeda
+146,6,Jehoeda,Jehoeda bar Gershom
+146,7,Joost,Joost
+146,7,Joost,Kluwer
+147,1,Jan,Jan
+147,2,Jacob,Jacob
+147,3,Louis,Louis
+147,4,Frits,Frits
+147,5,juffrouw Vink,juffrouw Vink
+147,5,juffrouw Vink,Juffrouw Vink
+147,6,Elly,Elly
+147,7,Huib,Huib
+147,8,Paul,Paul
+147,9,Peter,Peter
+147,10,mijn broer,mijn broer
+148,1,Wisent,Wisent
+148,2,de Man,de Man
+148,2,de Man,De Man
+148,3,Tidenka,Tidenka
+148,4,Ambar,Ambar
+148,5,Ilmandach,Ilmandach
+148,6,Dzenok,Dzenok
+148,7,Phytoimo,Phytoimo
+148,8,Anajala,Anajala
+148,9,Iridoena,Iridoena
+148,10,Doengil,Doengil
+148,11,Ihma,Ihma
+148,12,Ambardoso,Ambardoso
+148,13,Jaropy,Jaropy
+148,14,Bethinda,Bethinda
+148,15,Sersiopello,Sersiopello
+148,15,Sersiopello,Sersio
+149,1,Levka,Levka
+149,1,Levka,Lev
+149,2,Dander,Dander
+149,3,Dahud,Dahud
+149,4,Madame Despard,Madame Despard
+149,4,Madame Despard,madame Despard
+150,1,Akijn,Akijn
+150,2,Arie,Arie
+150,3,Izak,Izak
+150,4,Paap,Paap
+150,5,Opa,Opa
+150,6,Cathalijne,Cathalijne
+150,7,Johannes,Johannes
+150,8,Henk,Henk
+150,8,Henk,zijn vader
+150,9,zijn moeder,zijn moeder
+150,10,Jan Loof,Jan Loof
+151,1,B.,B.
+151,2,Van der Pol,Van der Pol
+151,3,Eikel,Eikel
+151,4,Pol,Pol
+151,5,vader,vader
+151,5,vader,Vader
+151,6,moeder,moeder
+151,6,moeder,Moeder
+151,7,de luitenant,de luitenant
+151,7,de luitenant,De luitenant
+152,1,de leraar,de leraar
+152,1,de leraar,De leraar
+152,1,de leraar,Victor
+152,1,de leraar,De Rijckel
+152,1,de leraar,Victor-Denijs de Rijckel
+152,1,de leraar,Heerema
+152,2,Crabbe,Crabbe
+152,3,Sandra,Sandra
+152,4,Korneel,Korneel
+152,5,Keukeleire,Keukeleire
+152,6,Elizabeth,Elizabeth
+152,7,Richard,Richard
+152,7,Richard,meneer Harmedam
+152,7,Richard,Richard Harmedam
+152,8,Alice,Alice
+152,9,Berthold,Berthold
+152,10,Fredine,Fredine
+152,11,Alessandra,Alessandra
+152,11,Alessandra,mevrouw Harmedam
+152,11,Alessandra,Mevrouw Harmedam
+152,12,Sprange,Sprange
+153,1,Eric,Eric
+153,1,Eric,Van Poelgeest
+153,1,Eric,Eric van Poelgeest
+153,2,Elly,Elly
+153,3,Van Grouw,Van Grouw
+153,4,Ans,Ans
+153,5,Bettie,Bettie
+153,6,De Spin,De Spin
+153,7,Peter,Peter
+153,8,Rozier,Rozier
+153,9,Paul,Paul
+153,9,Paul,d’Ailleurs
+153,9,Paul,D'Ailleurs
+154,1,Maarten,Maarten
+154,2,Paul,Paul
+154,2,Paul,Paultje
+154,3,Klaas,Klaas
+154,4,Rosalie,Rosalie
+154,5,Hans,Hans
+154,6,David,David
+154,7,Henriette,Henriette
+154,8,Nicolien,Nicolien
+154,9,Hettie,Hettie
+154,10,Stanley,Stanley
+154,11,Toos,Toos
+154,11,Toos,Toosje
+154,12,Louis,Louis
+154,13,Flap,Flap
+154,14,Bertie,Bertie
+154,15,Landman,Landman
+154,16,Nicolaas,Nicolaas
+154,17,Frits,Frits
+154,18,Trees,Trees
+155,1,Ik,Ik
+155,2,Tania,Tania
+155,3,Betty,Betty
+155,4,Arletta,Arletta
+155,5,Lea,Lea
+155,6,Walter,Walter
