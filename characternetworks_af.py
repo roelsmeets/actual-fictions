@@ -26,6 +26,7 @@ import math
 from operator import itemgetter
 #import community
 import ucto 
+import codecs
 
 
 # 2. CLASS CHARACTER
@@ -48,16 +49,16 @@ class Character:
 
 
 
-    def __init__(self, book_id, character_id, name, gender, descent, age, education, profession):
+    def __init__(self, book_id, character_id, name, gender):
         self.namevariants = []
         self.book_id = book_id
         self.character_id = character_id
         self.name = name
         self.gender = gender
-        self.descent = descent
-        self.age = age
-        self.education = education
-        self.profession = profession
+        #self.descent = descent
+        #self.age = age
+        #self.education = education
+        #self.profession = profession
         self.isfirstperson = False
 
         #self.descent_recode = ''
@@ -82,8 +83,8 @@ class Character:
 # 2.1. SUBCLASS Character_Centrality
 
 class Character_Centrality(Character):
-    def __init__(self, book_id, character_id, name, gender, descent, age, education, profession, degree, betweenness, closeness, eigenvector, katz):
-        Character.__init__(self, book_id, character_id, name, gender, descent, age, education, profession)
+    def __init__(self, book_id, character_id, name, gender, degree, betweenness, closeness, eigenvector, katz):
+        Character.__init__(self, book_id, character_id, name, gender)
         self.degree = degree
         self.betweenness = betweenness
         self.closeness = closeness
@@ -142,12 +143,12 @@ class Book:
 
 
 
-    def addcharacter(self, book_id, character_id, name, gender, descent, age, education, profession):
+    def addcharacter(self, book_id, character_id, name, gender):
         """ Adds instances of Character to instances of Book
 
         """
         
-        self.allcharacters[character_id] = Character(book_id, character_id, name, gender, descent, age, education, profession)
+        self.allcharacters[character_id] = Character(book_id, character_id, name, gender)
 
         if self.perspective == 1:
             self.allcharacters['1'].isfirstperson=True 
@@ -268,7 +269,7 @@ class Book:
                 else:
                     perspective = '1'
 
-                subbook = Book(self.book_id, self.title, self.name_author, self.gender_author, self.age_author, self.publisher, perspective, 'subbook')
+                subbook = Book(self.book_id, self.title, self.name_author, self.gender_author, self.nationality_author, self.publisher, perspective, 'subbook')
                 subbook.originaltext = text
                 subbook.markedtext = text
                 subbook.novel_word_count()
@@ -565,7 +566,7 @@ class Network():
 
 
     
-    def __init__(self, book_id, word_count, gender_author, age_author):
+    def __init__(self, book_id, word_count, gender_author, nationality_author):
         self.weights = {}
         self.relation_type = {}
         self.normalized_weights = {}
@@ -574,7 +575,7 @@ class Network():
         self.book_id = book_id
         self.word_count = word_count
         self.gender_author = gender_author
-        self.age_author = age_author
+        self.nationality_author = nationality_author
         self.number_of_nodes = 0
         self.number_of_edges = 0
         self.density = 0
@@ -743,10 +744,10 @@ class Network():
         # Create empty dictionaries for node attributes
         name_dict = {} 
         gender_dict = {}
-        descent_dict = {}
-        age_dict = {}
-        education_dict = {}
-        profession_dict = {}
+        # descent_dict = {}
+        # age_dict = {}
+        # education_dict = {}
+        # profession_dict = {}
         degree_dict = {}
         betweenness_dict = {}
         closeness_dict = {}
@@ -760,10 +761,10 @@ class Network():
             """
             name_dict[character_id] = allcharacters[character_id].name
             gender_dict[character_id] = allcharacters[character_id].gender
-            descent_dict[character_id] = allcharacters[character_id].descent
-            age_dict[character_id] = allcharacters[character_id].age
-            education_dict[character_id] = allcharacters[character_id].education
-            profession_dict[character_id] = allcharacters[character_id].profession
+            # descent_dict[character_id] = allcharacters[character_id].descent
+            # age_dict[character_id] = allcharacters[character_id].age
+            # education_dict[character_id] = allcharacters[character_id].education
+            # profession_dict[character_id] = allcharacters[character_id].profession
             degree_dict[character_id] = 0
             betweenness_dict[character_id] = 0
             closeness_dict[character_id] = 0
@@ -786,10 +787,10 @@ class Network():
 
         nx.set_node_attributes(self.Graph, name_dict, 'name')
         nx.set_node_attributes(self.Graph, gender_dict, 'gender')
-        nx.set_node_attributes(self.Graph, descent_dict, 'descent')
-        nx.set_node_attributes(self.Graph, age_dict, 'age')
-        nx.set_node_attributes(self.Graph, education_dict, 'education')
-        nx.set_node_attributes(self.Graph, profession_dict, 'profession')
+        # nx.set_node_attributes(self.Graph, descent_dict, 'descent')
+        # nx.set_node_attributes(self.Graph, age_dict, 'age')
+        # nx.set_node_attributes(self.Graph, education_dict, 'education')
+        # nx.set_node_attributes(self.Graph, profession_dict, 'profession')
         nx.set_node_attributes(self.Graph, degree_dict, 'degree')
         nx.set_node_attributes(self.Graph, betweenness_dict, 'betweenness')
         nx.set_node_attributes(self.Graph, closeness_dict, 'closeness')
@@ -905,17 +906,13 @@ class Network():
         balbla = False
         with open (filename, 'a', newline='') as f:
             csvwriter = csv.writer(f)
-            csvwriter.writerow(['book_id', 'character_id', 'name', 'gender', 'descent', 'age', 'education', 'profession', 'degree', 'betweenness', 'closeness', 'eigenvector', 'katz'])
+            #csvwriter.writerow(['book_id', 'character_id', 'name', 'gender', 'degree', 'betweenness', 'closeness', 'eigenvector', 'katz'])
 
             for character_id in sorted(list(self.Graph.nodes)):
                 csvwriter.writerow([self.book_id, \
                             character_id, \
                             nx.get_node_attributes(self.Graph, 'name')[character_id], \
                             nx.get_node_attributes(self.Graph, 'gender')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'descent')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'age')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'education')[character_id], \
-                            nx.get_node_attributes(self.Graph, 'profession')[character_id], \
                             nx.get_node_attributes(self.Graph, 'degree')[character_id], \
                             nx.get_node_attributes(self.Graph, 'betweenness')[character_id], \
                             nx.get_node_attributes(self.Graph, 'closeness')[character_id], \
@@ -987,7 +984,6 @@ class Network():
             csvwriter.writerow([self.book_id, \
                         self.word_count, \
                         self.gender_author, \
-                        self.age_author, \
                         self.number_of_nodes, \
                         self.number_of_edges, \
                         self.density, \

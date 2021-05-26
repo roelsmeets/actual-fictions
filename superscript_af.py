@@ -37,18 +37,18 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
      open(csvfiles['nodes'], 'rt') as csvfile2, \
      open(csvfiles['names'], 'rt') as csvfile4:
     # Csv-file with information on each novel, columns: Book_ID, Title, Author, Publisher, Gender_author, Birthtyear_author Perspective (1stpers, 3rdpers, multi, other)
-    BOOKS_AF_test = csv.reader(csvfile1, delimiter=',')
+    BOOKS_AF = csv.reader(csvfile1, delimiter=',')
     # Csv-file with information on characters, columns: Book-ID, Character-ID, Name, Gender, Descent, Age, Education, Profession
-    NODES_AF_test = csv.reader(csvfile2, delimiter=',')
+    NODES_AF = csv.reader(csvfile2, delimiter=',')
     # Csv-file with information on name variances, columns: Book-ID, Character-ID, Name-ID, Name-variances
-    NAMES_AF_test = csv.reader(csvfile4, delimiter=',')
+    NAMES_AF = csv.reader(csvfile4, delimiter=',')
 
     
 # 3. CREATE BOOK OBJECTS, CHARACTER OBJECTS, ADD NAME VARIANTS TO CHARACTER OBJECTS IN BOOKS OBJECTS, ADD EDGES TO NETWORK OBJECTS IN BOOK OBJECTS
 
     allbooks = {}
 
-    for line in BOOKS_AF_test: 
+    for line in BOOKS_AF: 
         """ Creates instances of Book for every novel in the corpus
 
         """
@@ -66,7 +66,7 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
 
             allbooks[book_id] = Book(book_id, title, name_author, gender_author, nationality_author, publisher, perspective, filename)
 
-    for line in NODES_AF_test:
+    for line in NODES_AF:
         """ Creates instances of Character for every character in the corpus and adds them to instances of Book
 
         """
@@ -78,15 +78,15 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
             character_id = line[1]
             name = line[2]
             gender = line[3]
-            descent = line[4]
-            age = line[5]
-            education = line[6]
-            profession = line[7]
+            #descent = line[4]
+            #age = line[5]
+            #education = line[6]
+            #profession = line[7]
 
-            allbooks[book_id].addcharacter(book_id, character_id, name, gender, descent, age, education, profession)
+            allbooks[book_id].addcharacter(book_id, character_id, name, gender)
 
 
-    for line in NAMES_AF_test:
+    for line in NAMES_AF:
         """ Adds name variants to instances of Character in instances of Book 
 
         """
@@ -99,7 +99,7 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
             name_variant = line[3]
 
             if allbooks[book_id].allcharacters[character_id].name != name:
-                print ('NAMES_AF DOES NOT CORRESPOND WELL WITH NODES_AF!!!') # Raise error if there are mistakes or typo's in the two corresponding csv-files
+                print ('NAMES_AF DOES NOT CORRESPOND WELL WITH NODES_AF IN BOOK', book_id) # Raise error if there are mistakes or typo's in the two corresponding csv-files
                 print (allbooks[book_id].allcharacters[character_id].name, name) # Print instance to which the error is due
                 exit(1)
 
@@ -157,7 +157,9 @@ with open(csvfiles['books'], 'rt') as csvfile1, \
         """
 
         print('computing network of book '+str(book_id))
-        allbooks[book_id].readfile(bookpath[allbooks[book_id].perspective]) # Call method readfile on Book objects with perspective (1, 2, 3)
+        #allbooks[book_id].readfile(bookpath[allbooks[book_id].perspective]) # Call method readfile on Book objects with perspective (1, 2, 3)
+
+        allbooks[book_id].readfile(bookpath) # Call method readfile on Book objects with perspective (1, 2, 3)
 
         allbooks[book_id].novel_word_count() # Call method novel_word_count on each Book object
 
